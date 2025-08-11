@@ -1,0 +1,9 @@
+                         Relatorio de Clientes
+---------------------------------------------------------------------------
+Codigo  Nome                    Endereco                  Cidade           Observacao
+------  -----------------------  ------------------------  ---------------  ------------------------------
+   15 teste15                 teste15 endereco         1-Joinville     teste15                       
+   17 teste17                 teste17                  1-Joinville     teste17                       
+   19 Edson                   Rua America, 222         1-Joinville     teste                         
+   23 Edson                   rua teste                1-Joinville     teste                         
+   33 teste33444              333                      1-Joinville     teste                         

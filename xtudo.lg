@@ -1,0 +1,996 @@
+
+                Sat Aug  9 18:59:58 2025
+[2025/08/09@18:59:58.783-0300] P-55680      T-56224 I DBUTIL   : (451)   prostrct create session begin for edson on CON:. 
+[2025/08/09@18:59:58.786-0300] P-55680      T-56224 I DBUTIL   : (12862) Structure file C:\treinamento\workspace\Projeto-Xtudo\xtudo.st used to create database with blocksize 4096. 
+[2025/08/09@18:59:58.788-0300] P-55680      T-56224 I DBUTIL   : (334)   prostrct create session end. 
+[2025/08/09@18:59:58.800-0300] P-55680      T-56224 I DBUTIL   : (451)   procopy session begin for edson on CON:. 
+[2025/08/09@18:59:58.818-0300] P-55680      T-56224 I DBUTIL   : (334)   procopy session end. 
+
+                Sat Aug  9 18:59:58 2025
+[2025/08/09@18:59:58.832-0300] P-55680      T-56224 I DBUTIL   : (451)   procopy get default SQL DBA session begin for edson on CON:. 
+[2025/08/09@18:59:58.833-0300] P-55680      T-56224 I DBUTIL   : (15321) Before Image Log Initialization at block 0  offset 0. 
+[2025/08/09@18:59:58.847-0300] P-55680      T-56224 I DBUTIL   : (14867) Procopy -newinstance Created a new database GUID. 
+[2025/08/09@18:59:58.850-0300] P-55680      T-56224 I DBUTIL   : (15109) At Database close the number of live transactions is 0. 
+[2025/08/09@18:59:58.850-0300] P-55680      T-56224 I DBUTIL   : (15743) Before Image Log Completion at Block 0 Offset 2648. 
+[2025/08/09@18:59:58.851-0300] P-55680      T-56224 I DBUTIL   : (334)   procopy get default SQL DBA session end. 
+
+                Sat Aug  9 19:00:02 2025
+[2025/08/09@19:00:02.530-0300] P-60012      T-51340 I ABL      : (451)   Single-user session begin for edson on CON:. 
+[2025/08/09@19:00:02.530-0300] P-60012      T-51340 I ABL      : (15321) Before Image Log Initialization at block 0  offset 2648. 
+[2025/08/09@19:00:02.532-0300] P-60012      T-51340 I ABL      : (7129)  Usr 0 set name to edson. 
+[2025/08/09@19:53:15.030-0300] P-60012      T-51340 I ABL      : (15109) At Database close the number of live transactions is 0. 
+[2025/08/09@19:53:15.030-0300] P-60012      T-51340 I ABL      : (15743) Before Image Log Completion at Block 23 Offset 8085. 
+[2025/08/09@19:53:15.031-0300] P-60012      T-51340 I ABL      : (334)   Single-user session end. 
+
+                Sat Aug  9 19:56:48 2025
+[2025/08/09@19:56:48.764-0300] P-44128      T-16952 I BROKER  0: (333)   Multi-user session begin. 
+[2025/08/09@19:56:48.765-0300] P-44128      T-16952 I BROKER  0: (15321) Before Image Log Initialization at block 23  offset 8085. 
+[2025/08/09@19:56:48.772-0300] P-44128      T-16952 I BROKER  0: (452)   Login by edson on batch. 
+[2025/08/09@19:56:48.773-0300] P-44128      T-16952 I BROKER  0: (4393)  This server is licensed for local logins only. 
+[2025/08/09@19:56:48.779-0300] P-44128      T-16952 I BROKER  0: (5644)  Started for 22200 using TCP IPV4 address 127.0.0.1, pid 44128. 
+[2025/08/09@19:56:48.779-0300] P-44128      T-16952 I BROKER  0: (19117) This installation is licensed to: Preferred Company by C:\Progress\OpenEdge\progress.cfg 
+[2025/08/09@19:56:48.779-0300] P-44128      T-16952 I BROKER  0: (19116) Product: Progress Dev Studio OE installed with serial number: 6077521 expiration: None. 
+[2025/08/09@19:56:48.780-0300] P-44128      T-16952 I BROKER  0: (4234)  Progress OpenEdge Release 12.8 build 1207 on WINNT . 
+[2025/08/09@19:56:48.780-0300] P-44128      T-16952 I BROKER  0: (19552) Broker with server num 0 logged in. 
+[2025/08/09@19:56:48.780-0300] P-44128      T-16952 I BROKER  0: (4281)  Server started by edson on batch. 
+[2025/08/09@19:56:48.780-0300] P-44128      T-16952 I BROKER  0: (6574)  Started using pid: 44128. 
+[2025/08/09@19:56:48.780-0300] P-44128      T-16952 I BROKER  0: (9426)  Large database file access has been enabled. 
+[2025/08/09@19:56:48.780-0300] P-44128      T-16952 I BROKER  0: (15219) Encryption enabled: 0 
+[2025/08/09@19:56:48.780-0300] P-44128      T-16952 I BROKER  0: (15824) Multi-tenancy enabled: 0 
+[2025/08/09@19:56:48.780-0300] P-44128      T-16952 I BROKER  0: (15824) Table Partitioning enabled: 0 
+[2025/08/09@19:56:48.780-0300] P-44128      T-16952 I BROKER  0: (15824) Authentication Gateway enabled: 0 
+[2025/08/09@19:56:48.781-0300] P-44128      T-16952 I BROKER  0: (9336)  Created shared memory with segment_id: 1 
+[2025/08/09@19:56:48.781-0300] P-44128      T-16952 I BROKER  0: (4250)  Before-Image Cluster Size: 524288 
+[2025/08/09@19:56:48.781-0300] P-44128      T-16952 I BROKER  0: (4251)  Before-Image Block Size: 8192 
+[2025/08/09@19:56:48.781-0300] P-44128      T-16952 I BROKER  0: (4255)  After-Image Block Size: 8192. 
+[2025/08/09@19:56:48.781-0300] P-44128      T-16952 I BROKER  0: (20665) Database Code Page: iso8859-1. 
+[2025/08/09@19:56:48.781-0300] P-44128      T-16952 I BROKER  0: (20666) Database Collation: basic. 
+[2025/08/09@19:56:48.781-0300] P-44128      T-16952 I BROKER  0: (20667) Word-rule File Number: 0. 
+[2025/08/09@19:56:48.781-0300] P-44128      T-16952 I BROKER  0: (20668) Word-rule File CRC: 0. 
+[2025/08/09@19:56:48.781-0300] P-44128      T-16952 I BROKER  0: (13873) After-image Management Archival Directory List (-aiarcdir): Not Enabled 
+[2025/08/09@19:56:48.782-0300] P-44128      T-16952 I BROKER  0: (13874) Create After-image Management Archival Directory(s) (-aiarcdircreate): Not Enabled 
+[2025/08/09@19:56:48.782-0300] P-44128      T-16952 I BROKER  0: (13872) After-image Management Archival Interval (-aiarcinterval): -1 
+[2025/08/09@19:56:48.782-0300] P-44128      T-16952 I BROKER  0: (4256)  Number of After-Image Buffers (-aibufs): 64 
+[2025/08/09@19:56:48.782-0300] P-44128      T-16952 I BROKER  0: (4254)  After-Image Stall (-aistall): Not Enabled 
+[2025/08/09@19:56:48.782-0300] P-44128      T-16952 I BROKER  0: (17555) Starting index number for statistics range (-baseindex): 1 
+[2025/08/09@19:56:48.782-0300] P-44128      T-16952 I BROKER  0: (19091) Starting LOB number for statistics range (-baselob): 1 
+[2025/08/09@19:56:48.782-0300] P-44128      T-16952 I BROKER  0: (17554) Starting table number for statistics range (-basetable): 1 
+[2025/08/09@19:56:48.782-0300] P-44128      T-16952 I BROKER  0: (18406) Starting index number per user for statistics range (-baseuserindex): 1 
+[2025/08/09@19:56:48.782-0300] P-44128      T-16952 I BROKER  0: (19092) Starting LOB number per user for statistics range (-baseuserlob): 1 
+[2025/08/09@19:56:48.782-0300] P-44128      T-16952 I BROKER  0: (18404) Starting table number per user for statistics range (-baseusertable): 1 
+[2025/08/09@19:56:48.782-0300] P-44128      T-16952 I BROKER  0: (4252)  Number of Before-Image Buffers (-bibufs): 64 
+[2025/08/09@19:56:48.783-0300] P-44128      T-16952 I BROKER  0: (20052) BI Scan Time (-biscantime): 10 seconds 
+[2025/08/09@19:56:48.783-0300] P-44128      T-16952 I BROKER  0: (6552)  BI File Threshold Stall (-bistall): Disabled 
+[2025/08/09@19:56:48.783-0300] P-44128      T-16952 I BROKER  0: (9238)  BI File Threshold size (-bithold): 0.0   Bytes 
+[2025/08/09@19:56:48.783-0300] P-44128      T-16952 I BROKER  0: (6573)  Database Blocksize (-blocksize): 4096 
+[2025/08/09@19:56:48.783-0300] P-44128      T-16952 I BROKER  0: (12812) BIW writer delay (-bwdelay): 30 
+[2025/08/09@19:56:48.783-0300] P-44128      T-16952 I BROKER  0: (12813) Allowed index cursors (-c): 84 
+[2025/08/09@19:56:48.783-0300] P-44128      T-16952 I BROKER  0: (18495) CDC cache size (-cdcsize): 200k bytes 
+[2025/08/09@19:56:48.783-0300] P-44128      T-16952 I BROKER  0: (12265) SSL Certificate Store Path (-certstorepath): Not Enabled 
+[2025/08/09@19:56:48.784-0300] P-44128      T-16952 I BROKER  0: (20643) Client Database-Request Statement Caching directory (-clstmtcachedir): Not Enabled 
+[2025/08/09@19:56:48.784-0300] P-44128      T-16952 I BROKER  0: (4264)  Character Set (-cpinternal): ISO8859-1 
+[2025/08/09@19:56:48.784-0300] P-44128      T-16952 I BROKER  0: (19442) C stack print option (-cstackPrintopt): 0 
+[2025/08/09@19:56:48.784-0300] P-44128      T-16952 I BROKER  0: (4235)  Physical Database Name (-db): C:/treinamento/workspace/Projeto-Xtudo/xtudo 
+[2025/08/09@19:56:48.784-0300] P-44128      T-16952 I BROKER  0: (19519) Number of DB Notification Operations (-dbnotifyops): 16 
+[2025/08/09@19:56:48.784-0300] P-44128      T-16952 I BROKER  0: (19511) DB Notification Time (-dbnotifytime): 30 seconds 
+[2025/08/09@19:56:48.784-0300] P-44128      T-16952 I BROKER  0: (18558) Diagnostic directory (-diagDir): Not Enabled 
+[2025/08/09@19:56:48.784-0300] P-44128      T-16952 I BROKER  0: (18576) Diagnostic events value (-diagEvent): LockTable:0,BiThold:0,SysErr:0 
+[2025/08/09@19:56:48.784-0300] P-44128      T-16952 I BROKER  0: (18560) Diagnostic event level (-diagEvtLevel): 0 
+[2025/08/09@19:56:48.792-0300] P-44128      T-16952 I BROKER  0: (18561) Diagnostic field separator (-diagFS): ' ' 
+[2025/08/09@19:56:48.792-0300] P-44128      T-16952 I BROKER  0: (18579) Diagnostic data format (-diagFormat): csv 
+[2025/08/09@19:56:48.792-0300] P-44128      T-16952 I BROKER  0: (18562) Diagnostic pause length (-diagPause): 0 
+[2025/08/09@19:56:48.792-0300] P-44128      T-16952 I BROKER  0: (18563) Diagnostic prefix value (-diagPrefix): diagEvent_ 
+[2025/08/09@19:56:48.792-0300] P-44128      T-16952 I BROKER  0: (18580) Diagnostic procedure (-diagProc): Not Enabled 
+[2025/08/09@19:56:48.792-0300] P-44128      T-16952 I BROKER  0: (4238)  Direct I/O (-directio): Not Enabled 
+[2025/08/09@19:56:48.793-0300] P-44128      T-16952 I BROKER  0: (4236)  Database Type (-dt): PROGRESS 
+[2025/08/09@19:56:48.793-0300] P-44128      T-16952 I BROKER  0: (15218) Encryption cache size (-ecsize): 1000 
+[2025/08/09@19:56:48.793-0300] P-44128      T-16952 I BROKER  0: (12814) Group delay (-groupdelay): 10 
+[2025/08/09@19:56:48.793-0300] P-44128      T-16952 I BROKER  0: (4242)  Hash Table Entries (-hash): 887 
+[2025/08/09@19:56:48.793-0300] P-44128      T-16952 I BROKER  0: (19195) Buffer pool hash table latch percentage (-hashLatchFactor): 10 
+[2025/08/09@19:56:48.793-0300] P-44128      T-16952 I BROKER  0: (20436) Allow hostname alias or specific IP address for the -H parameter (-hostnameAliasing): Not Enabled 
+[2025/08/09@19:56:48.793-0300] P-44128      T-16952 I BROKER  0: (4244)  Crash Recovery (-i): Enabled 
+[2025/08/09@19:56:48.794-0300] P-44128      T-16952 I BROKER  0: (17557) Number of indexes included in statistics collection (-indexrangesize): 50 
+[2025/08/09@19:56:48.794-0300] P-44128      T-16952 I BROKER  0: (14268) TCP/IP Version (-ipver): IPV4 
+[2025/08/09@19:56:48.794-0300] P-44128      T-16952 I BROKER  0: (12263) SSL Key Alias Name (-keyalias): Not Enabled 
+[2025/08/09@19:56:48.794-0300] P-44128      T-16952 I BROKER  0: (19216) Database log file archive directory (-lgArchiveDir): Not Enabled 
+[2025/08/09@19:56:48.794-0300] P-44128      T-16952 I BROKER  0: (19215) Archive database log file before truncation (-lgArchiveEnable): Not Enabled 
+[2025/08/09@19:56:48.794-0300] P-44128      T-16952 I BROKER  0: (19213) Frequency of database log file truncation (-lgTruncateFrequency): -1 
+[2025/08/09@19:56:48.795-0300] P-44128      T-16952 I BROKER  0: (19214) The maximum size the database log file can grow before truncation (-lgTruncateSize): 0MB 
+[2025/08/09@19:56:48.795-0300] P-44128      T-16952 I BROKER  0: (19212) Time of day for the database log file truncation (-lgTruncateTime): 00:00 
+[2025/08/09@19:56:48.795-0300] P-44128      T-16952 I BROKER  0: (19137) Limit .lg file payload (-limitLgPayload): Not Enabled 
+[2025/08/09@19:56:48.795-0300] P-44128      T-16952 I BROKER  0: (12815) Lock table hash table size (-lkhash): 1237 
+[2025/08/09@19:56:48.795-0300] P-44128      T-16952 I BROKER  0: (17805) Original Lock Release Algorithm (-lkrela): Not Enabled 
+[2025/08/09@19:56:48.795-0300] P-44128      T-16952 I BROKER  0: (19090) Number of LOBs included in statistics collection (-lobrangesize): 50 
+[2025/08/09@19:56:48.795-0300] P-44128      T-16952 I BROKER  0: (17560) Number of LRU force skips (-lruskips): 100 
+[2025/08/09@19:56:48.795-0300] P-44128      T-16952 I BROKER  0: (17561) Number of LRU2 force skips (-lru2skips): 0 
+[2025/08/09@19:56:48.796-0300] P-44128      T-16952 I BROKER  0: (13953) Maximum Area Number (-maxArea): 32000 
+[2025/08/09@19:56:48.796-0300] P-44128      T-16952 I BROKER  0: (5649)  Maximum Port for Auto Servers (-maxport): 5000 
+[2025/08/09@19:56:48.796-0300] P-44128      T-16952 I BROKER  0: (12540) Size of JTA transaction table (-maxxids): 100 
+[2025/08/09@19:56:48.796-0300] P-44128      T-16952 I BROKER  0: (5648)  Minimum Port for Auto Servers (-minport): 3000 
+[2025/08/09@19:56:48.796-0300] P-44128      T-16952 I BROKER  0: (17564) Multi-tenancy partition cache size (-mtpmsize): 1024 
+[2025/08/09@19:56:48.796-0300] P-44128      T-16952 I BROKER  0: (12821) Use muxlatches (-mux): 1 
+[2025/08/09@19:56:48.796-0300] P-44128      T-16952 I BROKER  0: (4260)  Maximum Number of Users (-n): 21 
+[2025/08/09@19:56:48.796-0300] P-44128      T-16952 I BROKER  0: (17566) Minimum time to nap at first -spin exhaustion (-nap): 10 
+[2025/08/09@19:56:48.796-0300] P-44128      T-16952 I BROKER  0: (17565) Maximum time to nap at -spin exhaustion (-napmax): 250 
+[2025/08/09@19:56:48.796-0300] P-44128      T-16952 I BROKER  0: (18522) SSL No Host Verify (-nohostverify): Not Enabled 
+[2025/08/09@19:56:48.796-0300] P-44128      T-16952 I BROKER  0: (12273) SSL No Session Cache (-nosessioncache): Not Enabled 
+[2025/08/09@19:56:48.796-0300] P-44128      T-16952 I BROKER  0: (18521) SSL No Session Reuse (-nosessionreuse): Not Enabled 
+[2025/08/09@19:56:48.796-0300] P-44128      T-16952 I BROKER  0: (16689) Login Governor (-nGovernor): 0 of 32000 
+[2025/08/09@19:56:48.796-0300] P-44128      T-16952 I BROKER  0: (18398) Number of checkpoint statistics to record (-numCheckpointStats): 32 
+[2025/08/09@19:56:48.796-0300] P-44128      T-16952 I BROKER  0: (19122) Omit .lg file messages (-omitLgMsgs):  
+[2025/08/09@19:56:48.796-0300] P-44128      T-16952 I BROKER  0: (8527)  Storage object cache size (-omsize): 1024 
+[2025/08/09@19:56:48.796-0300] P-44128      T-16952 I BROKER  0: (20842) Database startup parameter file (-pf): Not Enabled 
+[2025/08/09@19:56:48.796-0300] P-44128      T-16952 I BROKER  0: (13870) Database Service Manager - IPC Queue Size (-pica): 128.0 KBytes 
+[2025/08/09@19:56:48.796-0300] P-44128      T-16952 I BROKER  0: (19347) Maximum nap time when blocked to access PICA queue (-picanap): 1 ms. 
+[2025/08/09@19:56:48.796-0300] P-44128      T-16952 I BROKER  0: (17802) Shared memory segments locked (-pinshm): Not Enabled 
+[2025/08/09@19:56:48.797-0300] P-44128      T-16952 I BROKER  0: (16953) Use pollset mechanism for client/server (-pollset): Not Enabled 
+[2025/08/09@19:56:48.797-0300] P-44128      T-16952 I BROKER  0: (16955) Delay first prefetch message (-prefetchDelay): Enabled 
+[2025/08/09@19:56:48.797-0300] P-44128      T-16952 I BROKER  0: (16956) Prefetch message fill percentage (-prefetchFactor): 100 
+[2025/08/09@19:56:48.797-0300] P-44128      T-16952 I BROKER  0: (16957) Minimum records in prefetch msg (-prefetchNumRecs): 64 
+[2025/08/09@19:56:48.797-0300] P-44128      T-16952 I BROKER  0: (16958) Suspension queue poll priority (-prefetchPriority): 1 
+[2025/08/09@19:56:48.797-0300] P-44128      T-16952 I BROKER  0: (17568) APW queue scan cycle time in milliseconds (-pwqdelay): 100 
+[2025/08/09@19:56:48.797-0300] P-44128      T-16952 I BROKER  0: (17569) APW minimum queue length before write (-pwqmin): 1 
+[2025/08/09@19:56:48.797-0300] P-44128      T-16952 I BROKER  0: (17570) APW buffer scan cycle time in seconds (-pwsdelay): 1 
+[2025/08/09@19:56:48.797-0300] P-44128      T-16952 I BROKER  0: (17571) APW maximum number of buffers to scan per cycle (-pwscan): 5 
+[2025/08/09@19:56:48.797-0300] P-44128      T-16952 I BROKER  0: (17572) APW maximum number of buffers to write per cycle (-pwwmax): 25 
+[2025/08/09@19:56:48.797-0300] P-44128      T-16952 I BROKER  0: (4247)  Before-Image File I/O (-r -R): Reliable 
+[2025/08/09@19:56:48.797-0300] P-44128      T-16952 I BROKER  0: (17563) Record free chain search depth factor (-recspacesearchdepth): 5 
+[2025/08/09@19:56:48.797-0300] P-44128      T-16952 I BROKER  0: (19133) Schema Lock Wait Queue (-schlockwq): Not Enabled 
+[2025/08/09@19:56:48.797-0300] P-44128      T-16952 I BROKER  0: (18478) Security cache size (-secsize): 512 
+[2025/08/09@19:56:48.797-0300] P-44128      T-16952 I BROKER  0: (6526)  Number of Semaphore Sets (-semsets): 3 
+[2025/08/09@19:56:48.797-0300] P-44128      T-16952 I BROKER  0: (12264) SSL Session Timeout (-sessiontimeout): 0 
+[2025/08/09@19:56:48.797-0300] P-44128      T-16952 I BROKER  0: (13924) Maximum Shared Memory Segment Size (-shmsegsize): 1024 Mb 
+[2025/08/09@19:56:48.797-0300] P-44128      T-16952 I BROKER  0: (4243)  Current Spin Lock Tries (-spin): 1 
+[2025/08/09@19:56:48.797-0300] P-44128      T-16952 I BROKER  0: (17803) SSL Encryption for TCP/IP connections (-ssl): Not Enabled 
+[2025/08/09@19:56:48.797-0300] P-44128      T-16952 I BROKER  0: (19329) Database server side join support (-ssj): Not Enabled 
+[2025/08/09@19:56:48.797-0300] P-44128      T-16952 I BROKER  0: (20402) STS Socket Reuse (-stsSocketReuse): Yes 
+[2025/08/09@19:56:48.797-0300] P-44128      T-16952 I BROKER  0: (18525) STS Debug Logging Level default (-stslogginglevel): 0 
+[2025/08/09@19:56:48.797-0300] P-44128      T-16952 I BROKER  0: (17556) Number of tables included in statistics collection (-tablerangesize): 50 
+[2025/08/09@19:56:48.797-0300] P-44128      T-16952 I BROKER  0: (19151) Threaded database server (-threadedServer): Not Enabled 
+[2025/08/09@19:56:48.797-0300] P-44128      T-16952 I BROKER  0: (19159) Thread stack size for threaded database servers (-threadedServerStack): 512Kb 
+[2025/08/09@19:56:48.797-0300] P-44128      T-16952 I BROKER  0: (18407) Number of indexes per user included in statistics collection (-userindexrangesize): 50 
+[2025/08/09@19:56:48.797-0300] P-44128      T-16952 I BROKER  0: (19089) Number of lobs per user included in statistics collection (-userlobrangesize): 50 
+[2025/08/09@19:56:48.797-0300] P-44128      T-16952 I BROKER  0: (18118) User Notification Time (-usernotifytime): 600 seconds 
+[2025/08/09@19:56:48.797-0300] P-44128      T-16952 I BROKER  0: (18405) Number of tables per user included in statistics collection (-usertablerangesize): 50 
+[2025/08/09@19:56:48.798-0300] P-44128      T-16952 I BROKER  0: (14017) Area block consistency check in area "" (-AreaCheck): Not Enabled 
+[2025/08/09@19:56:48.798-0300] P-44128      T-16952 I BROKER  0: (4239)  Number of Database Buffers (-B): 3000 
+[2025/08/09@19:56:48.798-0300] P-44128      T-16952 I BROKER  0: (17562) Number of Alternate Database Buffers (-B2): 0 
+[2025/08/09@19:56:48.798-0300] P-44128      T-16952 I BROKER  0: (9422)  Maximum private buffers per user (-Bpmax): 64 
+[2025/08/09@19:56:48.798-0300] P-44128      T-16952 I BROKER  0: (14016) Database block consistency check (-DbCheck): Not Enabled 
+[2025/08/09@19:56:48.798-0300] P-44128      T-16952 I BROKER  0: (13869) Database Service Manager - Service(s) to start (-DBService): Not Enabled 
+[2025/08/09@19:56:48.798-0300] P-44128      T-16952 I BROKER  0: (10535) Enhanced Read-Only mode (-ERO): Not Enabled 
+[2025/08/09@19:56:48.798-0300] P-44128      T-16952 I BROKER  0: (4237)  Force Access (-F): Not Enabled 
+[2025/08/09@19:56:48.798-0300] P-44128      T-16952 I BROKER  0: (4249)  Before-Image Truncate Interval (-G): 0 
+[2025/08/09@19:56:48.798-0300] P-44128      T-16952 I BROKER  0: (4261)  Host Name (-H): EDSON 
+[2025/08/09@19:56:48.798-0300] P-44128      T-16952 I BROKER  0: (14018) Index block consistency check in index "", partitionID -32767(-IndexCheck): Not Enabled 
+[2025/08/09@19:56:48.798-0300] P-44128      T-16952 I BROKER  0: (4241)  Current Size of Lock Table (-L): 8192 
+[2025/08/09@19:56:48.798-0300] P-44128      T-16952 I BROKER  0: (16688) Lock Governor (-LGovernor): 0% 
+[2025/08/09@19:56:48.798-0300] P-44128      T-16952 I BROKER  0: (4257)  Maximum Number of Clients Per Server (-Ma): 5 
+[2025/08/09@19:56:48.798-0300] P-44128      T-16952 I BROKER  0: (14015) Memory overwrite check (-MemCheck): Not Enabled 
+[2025/08/09@19:56:48.798-0300] P-44128      T-16952 I BROKER  0: (4245)  Delay of Before-Image Flush (-Mf): 3 
+[2025/08/09@19:56:48.798-0300] P-44128      T-16952 I BROKER  0: (4259)  Minimum Clients Per Server (-Mi): 1 
+[2025/08/09@19:56:48.798-0300] P-44128      T-16952 I BROKER  0: (12818) Message Buffer Size (-Mm): 8192 
+[2025/08/09@19:56:48.798-0300] P-44128      T-16952 I BROKER  0: (4258)  Maximum Number of Servers (-Mn): 5 
+[2025/08/09@19:56:48.798-0300] P-44128      T-16952 I BROKER  0: (12819) Servers per Protocol (-Mp): 0 
+[2025/08/09@19:56:48.798-0300] P-44128      T-16952 I BROKER  0: (5647)  Maximum Servers Per Broker (-Mpb): 0 
+[2025/08/09@19:56:48.798-0300] P-44128      T-16952 I BROKER  0: (4240)  Excess Shared Memory Size (-Mxs): 39 
+[2025/08/09@19:56:48.798-0300] P-44128      T-16952 I BROKER  0: (4263)  Network Type (-N): TCP 
+[2025/08/09@19:56:48.798-0300] P-44128      T-16952 I BROKER  0: (16954) Server network message wait time (-Nmsgwait): 2 
+[2025/08/09@19:56:48.798-0300] P-44128      T-16952 I BROKER  0: (10357) Pending client connection timeout (-PendConnTime): 0 
+[2025/08/09@19:56:48.798-0300] P-44128      T-16952 I BROKER  0: (4262)  Service Name (-S): 22200 
+[2025/08/09@19:56:48.798-0300] P-44128      T-16952 I BROKER  0: (17804) Broker server group support (-ServerType): BOTH 
+[2025/08/09@19:56:48.798-0300] P-44128      T-16952 I BROKER  0: (19342) SQL Autonomous Update Statistics (-SQLAutoStats): OFF 
+[2025/08/09@19:56:48.798-0300] P-44128      T-16952 I BROKER  0: (10028) SQL Server Max Open Cursors (-SQLCursors): 50 
+[2025/08/09@19:56:48.798-0300] P-44128      T-16952 I BROKER  0: (20037) SQL Enable Core Generation (-SQLEnableCoreGeneration): OFF 
+[2025/08/09@19:56:48.798-0300] P-44128      T-16952 I BROKER  0: (20038) SQL Failure Driven Log (-SQLFailureDrivenLog): OFF 
+[2025/08/09@19:56:48.798-0300] P-44128      T-16952 I BROKER  0: (17567) Number of seconds for a SQL client to wait for a lock conflict to be resolved (-SQLLockWaitTimeout): 5. 
+[2025/08/09@19:56:48.798-0300] P-44128      T-16952 I BROKER  0: (19134) SQL rowid identifier (-SQLQuotedRowid): Standard 
+[2025/08/09@19:56:48.799-0300] P-44128      T-16952 I BROKER  0: (10026) SQL Server Stack Size (-SQLStack): 1000 
+[2025/08/09@19:56:48.799-0300] P-44128      T-16952 I BROKER  0: (10027) SQL Server Statement Cache Size (-SQLStmtCache): 100 
+[2025/08/09@19:56:48.799-0300] P-44128      T-16952 I BROKER  0: (10029) Size [1K byte units] of SQL Server temp table buffer (-SQLTempBuff): 1000 
+[2025/08/09@19:56:48.799-0300] P-44128      T-16952 I BROKER  0: (10030) Size [1K byte units] of SQL Server temp table disk storage (-SQLTempDisk): 500000 
+[2025/08/09@19:56:48.799-0300] P-44128      T-16952 I BROKER  0: (10031) Size [1K byte units] of SQL Server temp table data page (-SQLTempPgSize): 8 
+[2025/08/09@19:56:48.799-0300] P-44128      T-16952 I BROKER  0: (17955) Authorized data truncation (-SQLTruncateTooLarge): OFF 
+[2025/08/09@19:56:48.799-0300] P-44128      T-16952 I BROKER  0: (18156) SQL Autonomous Schema Update (-SQLWidthUpdate): OFF 
+[2025/08/09@19:56:48.799-0300] P-44128      T-16952 I BROKER  0: (14019) Record block consistency check in table "", partitionID -32767(-TableCheck): Not Enabled 
+[2025/08/09@19:56:48.799-0300] P-44128      T-16952 I BROKER  0: (17717) TXE Lock retry limit (-TXERetryLimit): 0 
+[2025/08/09@19:56:48.799-0300] P-44128      T-16952 I BROKER  0: (13896) TXE Commit lock skip limit (-TXESkipLimit): 10000 
+[2025/08/09@19:56:48.799-0300] P-44128      T-16952 I BROKER  0: (10836) Database connections are not allowed at this time. 
+[2025/08/09@19:56:48.800-0300] P-44128      T-16952 I BROKER  0: (10471) Database connections have been enabled. 
+[2025/08/09@19:56:49.359-0300] P-37544      T-24912 I SQLSRV2 1: (19262) SQL Server 12.8.00 started, configuration: "xtudo.virtualconfig" 
+[2025/08/09@19:56:49.364-0300] P-37544      T-24912 I SQLSRV2 1: (19552) SQL Server with server num 1 logged in.
+[2025/08/09@19:56:49.364-0300] P-37544      T-24912 I SQLSRV2 1: (19265) "C:/treinamento/workspace/Projeto-Xtudo/xtudo" started on IPv4 port 3000 for address 127.0.0.1, pid -27992 (0xffff92a8).
+[2025/08/09@19:56:49.364-0300] P-37544      T-24912 I SQLSRV2 1: (19263) Thread stack size:  1024000  (bytes).
+[2025/08/09@19:56:49.364-0300] P-37544      T-24912 I SQLSRV2 1: (19270) DLC from ENVIRONMENT VARIABLE is: C:\Progress\OpenEdge
+[2025/08/09@19:56:49.364-0300] P-37544      T-24912 I SQLSRV2 1: (19270) WRKDIR from REGISTRY is: C:\OpenEdge\WRK\
+[2025/08/09@19:56:49.364-0300] P-37544      T-24912 I SQLSRV2 1: (19270) JDKHOME from ENVIRONMENT VARIABLE is: C:\PROGRA~1\Java\jdk-20
+[2025/08/09@19:56:49.364-0300] P-37544      T-24912 I SQLSRV2 1: (19270) JREHOME from ENVIRONMENT VARIABLE is: C:\PROGRA~1\Java\jdk-20
+[2025/08/09@19:56:49.364-0300] P-37544      T-24912 I SQLSRV2 1: (19270) CLASSPATH from DEFAULT is: 
+[2025/08/09@19:56:49.364-0300] P-37544      T-24912 I SQLSRV2 1: (19271) PROSQL_LOCKWAIT_TIMEOUT value is: 5 seconds
+[2025/08/09@19:56:49.395-0300] P-37544      T-24912 I SQLSRV2 1: (19260) server control: JVM Parameter Monitoring Service start status= 0
+[2025/08/09@19:56:49.403-0300] P-37544      T-58572 I SQLSRV2 1: (19243) sql_engine: SQL service thread for client begun
+[2025/08/09@19:56:49.403-0300] P-37544      T-58572 I SQLSRV2 1: (19288) service name: JVM Param Service : Thread 58572 is executing.
+[2025/08/09@19:56:50.131-0300] P-37544      T-42344 I SQLSRV2 1: (8873)  Login usernum 2, remote SQL client. 
+[2025/08/09@19:56:50.146-0300] P-37544      T-42344 I SQLSRV2 1: (17961) User 2 set tty to kubernetes:49362. 
+[2025/08/09@19:56:50.146-0300] P-37544      T-42344 I SQLSRV2 1: (7129)  Usr 2 set name to edson. 
+[2025/08/09@19:56:50.146-0300] P-37544      T-42344 I SQLSRV2 1: (19205) SQLLockWaitTimeout 5 
+[2025/08/09@19:56:50.152-0300] P-37544      T-42344 I SQLSRV2 1: (19198) Login by user 2. Using TCP/IP IPV4 address 127.0.0.1
+[2025/08/09@20:07:06.271-0300] P-51592      T-2840  I ABL     3: (452)   Login by edson on CON:. 
+[2025/08/09@20:07:06.293-0300] P-51592      T-2840  I ABL     3: (7129)  Usr 3 set name to edson. 
+[2025/08/09@20:07:06.404-0300] P-51592      T-2840  I ABL     3: (453)   Logout by edson on CON:. 
+[2025/08/09@20:07:32.218-0300] P-58788      T-45600 I ABL     3: (452)   Login by edson on CON:. 
+[2025/08/09@20:07:32.226-0300] P-58788      T-45600 I ABL     3: (7129)  Usr 3 set name to edson. 
+[2025/08/09@20:09:59.861-0300] P-58788      T-45600 I ABL     3: (453)   Logout by edson on CON:. 
+[2025/08/09@20:10:08.084-0300] P-348        T-47400 I ABL     3: (452)   Login by edson on CON:. 
+[2025/08/09@20:10:08.092-0300] P-348        T-47400 I ABL     3: (7129)  Usr 3 set name to edson. 
+[2025/08/09@20:10:33.369-0300] P-348        T-47400 I ABL     3: (453)   Logout by edson on CON:. 
+[2025/08/09@20:11:16.861-0300] P-44436      T-58896 I ABL     3: (452)   Login by edson on CON:. 
+[2025/08/09@20:11:16.870-0300] P-44436      T-58896 I ABL     3: (7129)  Usr 3 set name to edson. 
+[2025/08/09@20:11:29.085-0300] P-44436      T-58896 I ABL     3: (453)   Logout by edson on CON:. 
+[2025/08/09@20:11:56.741-0300] P-60224      T-52032 I ABL     3: (452)   Login by edson on CON:. 
+[2025/08/09@20:11:56.751-0300] P-60224      T-52032 I ABL     3: (7129)  Usr 3 set name to edson. 
+[2025/08/09@20:12:28.161-0300] P-60224      T-52032 I ABL     3: (453)   Logout by edson on CON:. 
+[2025/08/09@20:13:33.473-0300] P-24960      T-51896 I ABL     3: (452)   Login by edson on CON:. 
+[2025/08/09@20:13:33.482-0300] P-24960      T-51896 I ABL     3: (7129)  Usr 3 set name to edson. 
+[2025/08/09@20:13:51.702-0300] P-24960      T-51896 I ABL     3: (453)   Logout by edson on CON:. 
+[2025/08/09@20:13:56.379-0300] P-51044      T-51048 I ABL     3: (452)   Login by edson on CON:. 
+[2025/08/09@20:13:56.387-0300] P-51044      T-51048 I ABL     3: (7129)  Usr 3 set name to edson. 
+[2025/08/09@20:14:06.533-0300] P-51044      T-51048 I ABL     3: (453)   Logout by edson on CON:. 
+[2025/08/09@20:14:59.001-0300] P-54088      T-55608 I ABL     3: (452)   Login by edson on CON:. 
+[2025/08/09@20:14:59.012-0300] P-54088      T-55608 I ABL     3: (7129)  Usr 3 set name to edson. 
+[2025/08/09@20:17:11.427-0300] P-54088      T-55608 I ABL     3: (453)   Logout by edson on CON:. 
+[2025/08/09@20:23:09.284-0300] P-45148      T-38032 I ABL     3: (452)   Login by edson on CON:. 
+[2025/08/09@20:23:09.293-0300] P-45148      T-38032 I ABL     3: (7129)  Usr 3 set name to edson. 
+[2025/08/09@20:23:11.379-0300] P-45148      T-38032 I ABL     3: (453)   Logout by edson on CON:. 
+[2025/08/09@20:26:36.424-0300] P-42668      T-60112 I ABL     3: (452)   Login by edson on CON:. 
+[2025/08/09@20:26:36.434-0300] P-42668      T-60112 I ABL     3: (7129)  Usr 3 set name to edson. 
+[2025/08/09@20:26:38.617-0300] P-42668      T-60112 I ABL     3: (453)   Logout by edson on CON:. 
+[2025/08/09@20:27:05.740-0300] P-20072      T-33628 I ABL     3: (452)   Login by edson on CON:. 
+[2025/08/09@20:27:05.748-0300] P-20072      T-33628 I ABL     3: (7129)  Usr 3 set name to edson. 
+[2025/08/09@20:27:10.880-0300] P-20072      T-33628 I ABL     3: (453)   Logout by edson on CON:. 
+[2025/08/09@20:27:32.218-0300] P-46480      T-57140 I ABL     3: (452)   Login by edson on CON:. 
+[2025/08/09@20:27:32.226-0300] P-46480      T-57140 I ABL     3: (7129)  Usr 3 set name to edson. 
+[2025/08/09@20:27:34.311-0300] P-46480      T-57140 I ABL     3: (453)   Logout by edson on CON:. 
+[2025/08/09@20:27:59.334-0300] P-51908      T-54216 I ABL     3: (452)   Login by edson on CON:. 
+[2025/08/09@20:27:59.342-0300] P-51908      T-54216 I ABL     3: (7129)  Usr 3 set name to edson. 
+[2025/08/09@20:29:29.284-0300] P-51908      T-54216 I ABL     3: (453)   Logout by edson on CON:. 
+[2025/08/09@20:29:42.176-0300] P-58908      T-55548 I ABL     3: (452)   Login by edson on CON:. 
+[2025/08/09@20:29:42.186-0300] P-58908      T-55548 I ABL     3: (7129)  Usr 3 set name to edson. 
+[2025/08/09@20:29:44.273-0300] P-58908      T-55548 I ABL     3: (453)   Logout by edson on CON:. 
+[2025/08/09@20:30:47.332-0300] P-58580      T-47552 I ABL     3: (452)   Login by edson on CON:. 
+[2025/08/09@20:30:47.339-0300] P-58580      T-47552 I ABL     3: (7129)  Usr 3 set name to edson. 
+[2025/08/09@20:30:59.550-0300] P-58580      T-47552 I ABL     3: (453)   Logout by edson on CON:. 
+[2025/08/09@20:31:55.134-0300] P-52952      T-40932 I ABL     3: (452)   Login by edson on CON:. 
+[2025/08/09@20:31:55.142-0300] P-52952      T-40932 I ABL     3: (7129)  Usr 3 set name to edson. 
+[2025/08/09@20:34:23.901-0300] P-43548      T-54296 I ABL     4: (452)   Login by edson on CON:. 
+[2025/08/09@20:34:23.912-0300] P-43548      T-54296 I ABL     4: (7129)  Usr 4 set name to edson. 
+[2025/08/09@20:34:58.367-0300] P-43548      T-54296 I ABL     4: (453)   Logout by edson on CON:. 
+[2025/08/09@20:40:16.134-0300] P-55992      T-55376 I ABL     4: (452)   Login by edson on CON:. 
+[2025/08/09@20:40:16.175-0300] P-55992      T-55376 I ABL     4: (7129)  Usr 4 set name to edson. 
+[2025/08/09@20:40:22.321-0300] P-52952      T-40932 I ABL     3: (453)   Logout by edson on CON:. 
+[2025/08/09@20:40:34.427-0300] P-55992      T-55376 I ABL     4: (453)   Logout by edson on CON:. 
+[2025/08/09@20:40:40.015-0300] P-44564      T-38492 I ABL     3: (452)   Login by edson on CON:. 
+[2025/08/09@20:40:40.028-0300] P-44564      T-38492 I ABL     3: (7129)  Usr 3 set name to edson. 
+[2025/08/09@20:41:45.932-0300] P-44564      T-38492 I ABL     3: (453)   Logout by edson on CON:. 
+[2025/08/09@20:41:50.645-0300] P-60216      T-58836 I ABL     3: (452)   Login by edson on CON:. 
+[2025/08/09@20:41:50.656-0300] P-60216      T-58836 I ABL     3: (7129)  Usr 3 set name to edson. 
+[2025/08/09@20:42:10.926-0300] P-60216      T-58836 I ABL     3: (453)   Logout by edson on CON:. 
+[2025/08/09@20:43:30.062-0300] P-32168      T-42348 I ABL     3: (452)   Login by edson on CON:. 
+[2025/08/09@20:43:30.072-0300] P-32168      T-42348 I ABL     3: (7129)  Usr 3 set name to edson. 
+[2025/08/09@20:43:42.280-0300] P-32168      T-42348 I ABL     3: (453)   Logout by edson on CON:. 
+[2025/08/09@20:46:45.360-0300] P-560        T-56648 I ABL     3: (452)   Login by edson on CON:. 
+[2025/08/09@20:46:45.523-0300] P-560        T-56648 I ABL     3: (7129)  Usr 3 set name to edson. 
+[2025/08/09@20:47:01.864-0300] P-560        T-56648 I ABL     3: (453)   Logout by edson on CON:. 
+[2025/08/09@20:47:23.263-0300] P-18548      T-22360 I ABL     3: (452)   Login by edson on CON:. 
+[2025/08/09@20:47:23.272-0300] P-18548      T-22360 I ABL     3: (7129)  Usr 3 set name to edson. 
+[2025/08/09@20:47:40.533-0300] P-18548      T-22360 I ABL     3: (453)   Logout by edson on CON:. 
+[2025/08/09@20:47:54.951-0300] P-45084      T-51328 I ABL     3: (452)   Login by edson on CON:. 
+[2025/08/09@20:47:54.960-0300] P-45084      T-51328 I ABL     3: (7129)  Usr 3 set name to edson. 
+[2025/08/09@20:50:01.347-0300] P-45084      T-51328 I ABL     3: (453)   Logout by edson on CON:. 
+[2025/08/09@20:51:26.437-0300] P-58812      T-11320 I ABL     3: (452)   Login by edson on CON:. 
+[2025/08/09@20:51:26.448-0300] P-58812      T-11320 I ABL     3: (7129)  Usr 3 set name to edson. 
+[2025/08/09@20:51:28.531-0300] P-58812      T-11320 I ABL     3: (453)   Logout by edson on CON:. 
+[2025/08/09@20:52:24.414-0300] P-59832      T-24648 I ABL     3: (452)   Login by edson on CON:. 
+[2025/08/09@20:52:24.422-0300] P-59832      T-24648 I ABL     3: (7129)  Usr 3 set name to edson. 
+[2025/08/09@20:52:50.805-0300] P-59832      T-24648 I ABL     3: (453)   Logout by edson on CON:. 
+[2025/08/09@20:53:46.441-0300] P-32928      T-53268 I ABL     3: (452)   Login by edson on CON:. 
+[2025/08/09@20:53:46.452-0300] P-32928      T-53268 I ABL     3: (7129)  Usr 3 set name to edson. 
+[2025/08/09@20:54:08.793-0300] P-32928      T-53268 I ABL     3: (453)   Logout by edson on CON:. 
+[2025/08/09@20:55:59.553-0300] P-57332      T-58168 I ABL     3: (452)   Login by edson on CON:. 
+[2025/08/09@20:55:59.563-0300] P-57332      T-58168 I ABL     3: (7129)  Usr 3 set name to edson. 
+[2025/08/09@20:56:01.636-0300] P-57332      T-58168 I ABL     3: (453)   Logout by edson on CON:. 
+[2025/08/09@20:56:10.761-0300] P-59212      T-54268 I ABL     3: (452)   Login by edson on CON:. 
+[2025/08/09@20:56:10.769-0300] P-59212      T-54268 I ABL     3: (7129)  Usr 3 set name to edson. 
+[2025/08/09@20:59:16.950-0300] P-54972      T-58260 I ABL     4: (452)   Login by edson on CON:. 
+[2025/08/09@20:59:16.961-0300] P-54972      T-58260 I ABL     4: (7129)  Usr 4 set name to edson. 
+[2025/08/09@20:59:29.199-0300] P-54972      T-58260 I ABL     4: (453)   Logout by edson on CON:. 
+[2025/08/09@20:59:33.860-0300] P-59212      T-54268 I ABL     3: (453)   Logout by edson on CON:. 
+[2025/08/09@21:01:20.683-0300] P-50356      T-52380 I ABL     3: (452)   Login by edson on CON:. 
+[2025/08/09@21:01:20.694-0300] P-50356      T-52380 I ABL     3: (7129)  Usr 3 set name to edson. 
+[2025/08/09@21:01:33.875-0300] P-50356      T-52380 I ABL     3: (453)   Logout by edson on CON:. 
+[2025/08/09@21:02:28.303-0300] P-39376      T-58520 I ABL     3: (452)   Login by edson on CON:. 
+[2025/08/09@21:02:28.312-0300] P-39376      T-58520 I ABL     3: (7129)  Usr 3 set name to edson. 
+[2025/08/09@21:02:48.607-0300] P-39376      T-58520 I ABL     3: (453)   Logout by edson on CON:. 
+[2025/08/09@21:03:31.325-0300] P-48948      T-32812 I ABL     3: (452)   Login by edson on CON:. 
+[2025/08/09@21:03:31.332-0300] P-48948      T-32812 I ABL     3: (7129)  Usr 3 set name to edson. 
+[2025/08/09@21:03:36.464-0300] P-48948      T-32812 I ABL     3: (453)   Logout by edson on CON:. 
+[2025/08/09@21:05:24.740-0300] P-45936      T-59024 I ABL     3: (452)   Login by edson on CON:. 
+[2025/08/09@21:05:24.749-0300] P-45936      T-59024 I ABL     3: (7129)  Usr 3 set name to edson. 
+[2025/08/09@21:05:27.826-0300] P-45936      T-59024 I ABL     3: (453)   Logout by edson on CON:. 
+[2025/08/09@21:05:35.179-0300] P-49724      T-59300 I ABL     3: (452)   Login by edson on CON:. 
+[2025/08/09@21:05:35.188-0300] P-49724      T-59300 I ABL     3: (7129)  Usr 3 set name to edson. 
+[2025/08/09@21:05:37.271-0300] P-49724      T-59300 I ABL     3: (453)   Logout by edson on CON:. 
+[2025/08/09@21:08:51.594-0300] P-50864      T-55284 I ABL     3: (452)   Login by edson on CON:. 
+[2025/08/09@21:08:51.607-0300] P-50864      T-55284 I ABL     3: (7129)  Usr 3 set name to edson. 
+[2025/08/09@21:08:53.689-0300] P-50864      T-55284 I ABL     3: (453)   Logout by edson on CON:. 
+[2025/08/09@21:27:45.866-0300] P-53268      T-61532 I ABL     3: (452)   Login by edson on CON:. 
+[2025/08/09@21:27:45.877-0300] P-53268      T-61532 I ABL     3: (7129)  Usr 3 set name to edson. 
+[2025/08/09@21:28:01.163-0300] P-53268      T-61532 I ABL     3: (453)   Logout by edson on CON:. 
+[2025/08/09@21:31:31.678-0300] P-55804      T-62336 I ABL     3: (452)   Login by edson on CON:. 
+[2025/08/09@21:31:31.691-0300] P-55804      T-62336 I ABL     3: (7129)  Usr 3 set name to edson. 
+[2025/08/09@21:31:46.969-0300] P-55804      T-62336 I ABL     3: (453)   Logout by edson on CON:. 
+
+                Sun Aug 10 08:16:29 2025
+[2025/08/10@08:16:29.058-0300] P-24364      T-40016 I ABL     3: (452)   Login by edson on CON:. 
+[2025/08/10@08:16:29.069-0300] P-24364      T-40016 I ABL     3: (7129)  Usr 3 set name to edson. 
+[2025/08/10@08:16:31.157-0300] P-24364      T-40016 I ABL     3: (453)   Logout by edson on CON:. 
+[2025/08/10@08:21:49.799-0300] P-20760      T-61068 I ABL     3: (452)   Login by edson on CON:. 
+[2025/08/10@08:21:49.808-0300] P-20760      T-61068 I ABL     3: (7129)  Usr 3 set name to edson. 
+[2025/08/10@08:21:51.890-0300] P-20760      T-61068 I ABL     3: (453)   Logout by edson on CON:. 
+[2025/08/10@08:23:19.057-0300] P-61848      T-57652 I ABL     3: (452)   Login by edson on CON:. 
+[2025/08/10@08:23:19.069-0300] P-61848      T-57652 I ABL     3: (7129)  Usr 3 set name to edson. 
+[2025/08/10@08:23:28.228-0300] P-61848      T-57652 I ABL     3: (453)   Logout by edson on CON:. 
+[2025/08/10@08:24:01.100-0300] P-62336      T-62600 I ABL     3: (452)   Login by edson on CON:. 
+[2025/08/10@08:24:01.111-0300] P-62336      T-62600 I ABL     3: (7129)  Usr 3 set name to edson. 
+[2025/08/10@08:24:07.229-0300] P-62336      T-62600 I ABL     3: (453)   Logout by edson on CON:. 
+[2025/08/10@08:24:24.192-0300] P-51788      T-53960 I ABL     3: (452)   Login by edson on CON:. 
+[2025/08/10@08:24:24.221-0300] P-51788      T-53960 I ABL     3: (7129)  Usr 3 set name to edson. 
+[2025/08/10@08:24:29.322-0300] P-51788      T-53960 I ABL     3: (453)   Logout by edson on CON:. 
+[2025/08/10@08:25:07.140-0300] P-19944      T-58304 I ABL     3: (452)   Login by edson on CON:. 
+[2025/08/10@08:25:07.148-0300] P-19944      T-58304 I ABL     3: (7129)  Usr 3 set name to edson. 
+[2025/08/10@08:25:16.300-0300] P-19944      T-58304 I ABL     3: (453)   Logout by edson on CON:. 
+[2025/08/10@08:27:11.082-0300] P-46732      T-63156 I ABL     3: (452)   Login by edson on CON:. 
+[2025/08/10@08:27:11.096-0300] P-46732      T-63156 I ABL     3: (7129)  Usr 3 set name to edson. 
+[2025/08/10@08:27:13.167-0300] P-46732      T-63156 I ABL     3: (453)   Logout by edson on CON:. 
+[2025/08/10@08:27:41.147-0300] P-47188      T-42692 I ABL     3: (452)   Login by edson on CON:. 
+[2025/08/10@08:27:41.157-0300] P-47188      T-42692 I ABL     3: (7129)  Usr 3 set name to edson. 
+[2025/08/10@08:27:43.232-0300] P-47188      T-42692 I ABL     3: (453)   Logout by edson on CON:. 
+[2025/08/10@08:28:06.526-0300] P-62932      T-64184 I ABL     3: (452)   Login by edson on CON:. 
+[2025/08/10@08:28:06.534-0300] P-62932      T-64184 I ABL     3: (7129)  Usr 3 set name to edson. 
+[2025/08/10@08:28:07.644-0300] P-62932      T-64184 I ABL     3: (453)   Logout by edson on CON:. 
+[2025/08/10@08:28:19.602-0300] P-56340      T-63380 I ABL     3: (452)   Login by edson on CON:. 
+[2025/08/10@08:28:19.612-0300] P-56340      T-63380 I ABL     3: (7129)  Usr 3 set name to edson. 
+[2025/08/10@08:28:20.710-0300] P-56340      T-63380 I ABL     3: (453)   Logout by edson on CON:. 
+[2025/08/10@08:29:01.944-0300] P-58104      T-46960 I ABL     3: (452)   Login by edson on CON:. 
+[2025/08/10@08:29:01.952-0300] P-58104      T-46960 I ABL     3: (7129)  Usr 3 set name to edson. 
+[2025/08/10@08:29:03.043-0300] P-58104      T-46960 I ABL     3: (453)   Logout by edson on CON:. 
+[2025/08/10@08:31:30.758-0300] P-51592      T-2840  I ABL     3: (452)   Login by edson on CON:. 
+[2025/08/10@08:31:30.768-0300] P-51592      T-2840  I ABL     3: (7129)  Usr 3 set name to edson. 
+[2025/08/10@08:31:30.885-0300] P-51592      T-2840  I ABL     3: (453)   Logout by edson on CON:. 
+[2025/08/10@08:32:00.726-0300] P-51096      T-22956 I ABL     3: (452)   Login by edson on CON:. 
+[2025/08/10@08:32:00.740-0300] P-51096      T-22956 I ABL     3: (7129)  Usr 3 set name to edson. 
+[2025/08/10@08:34:19.271-0300] P-51096      T-22956 I ABL     3: (453)   Logout by edson on CON:. 
+[2025/08/10@08:37:27.917-0300] P-48204      T-57796 I ABL     3: (452)   Login by edson on CON:. 
+[2025/08/10@08:37:27.925-0300] P-48204      T-57796 I ABL     3: (7129)  Usr 3 set name to edson. 
+[2025/08/10@08:37:29.018-0300] P-48204      T-57796 I ABL     3: (453)   Logout by edson on CON:. 
+[2025/08/10@08:40:55.991-0300] P-58496      T-61644 I ABL     3: (452)   Login by edson on CON:. 
+[2025/08/10@08:40:56.010-0300] P-58496      T-61644 I ABL     3: (7129)  Usr 3 set name to edson. 
+[2025/08/10@08:40:57.104-0300] P-58496      T-61644 I ABL     3: (453)   Logout by edson on CON:. 
+[2025/08/10@08:41:02.675-0300] P-57092      T-53476 I ABL     3: (452)   Login by edson on CON:. 
+[2025/08/10@08:41:02.691-0300] P-57092      T-53476 I ABL     3: (7129)  Usr 3 set name to edson. 
+[2025/08/10@08:41:03.780-0300] P-57092      T-53476 I ABL     3: (453)   Logout by edson on CON:. 
+[2025/08/10@08:41:49.173-0300] P-58064      T-55556 I ABL     3: (452)   Login by edson on CON:. 
+[2025/08/10@08:41:49.184-0300] P-58064      T-55556 I ABL     3: (7129)  Usr 3 set name to edson. 
+[2025/08/10@08:41:52.344-0300] P-58064      T-55556 I ABL     3: (453)   Logout by edson on CON:. 
+[2025/08/10@08:42:14.351-0300] P-30832      T-63836 I ABL     3: (452)   Login by edson on CON:. 
+[2025/08/10@08:42:14.359-0300] P-30832      T-63836 I ABL     3: (7129)  Usr 3 set name to edson. 
+[2025/08/10@08:42:17.519-0300] P-30832      T-63836 I ABL     3: (453)   Logout by edson on CON:. 
+[2025/08/10@08:43:49.577-0300] P-62360      T-25396 I ABL     3: (452)   Login by edson on CON:. 
+[2025/08/10@08:43:49.585-0300] P-62360      T-25396 I ABL     3: (7129)  Usr 3 set name to edson. 
+[2025/08/10@08:45:05.348-0300] P-62360      T-25396 I ABL     3: (453)   Logout by edson on CON:. 
+[2025/08/10@08:45:55.846-0300] P-60192      T-46424 I ABL     3: (452)   Login by edson on CON:. 
+[2025/08/10@08:45:55.854-0300] P-60192      T-46424 I ABL     3: (7129)  Usr 3 set name to edson. 
+[2025/08/10@08:45:56.946-0300] P-60192      T-46424 I ABL     3: (453)   Logout by edson on CON:. 
+[2025/08/10@08:47:47.684-0300] P-57060      T-59276 I ABL     3: (452)   Login by edson on CON:. 
+[2025/08/10@08:47:47.694-0300] P-57060      T-59276 I ABL     3: (7129)  Usr 3 set name to edson. 
+[2025/08/10@08:47:48.785-0300] P-57060      T-59276 I ABL     3: (453)   Logout by edson on CON:. 
+[2025/08/10@08:49:30.350-0300] P-58952      T-58800 I ABL     3: (452)   Login by edson on CON:. 
+[2025/08/10@08:49:30.360-0300] P-58952      T-58800 I ABL     3: (7129)  Usr 3 set name to edson. 
+[2025/08/10@08:49:33.512-0300] P-58952      T-58800 I ABL     3: (453)   Logout by edson on CON:. 
+[2025/08/10@08:51:02.586-0300] P-64172      T-48168 I ABL     3: (452)   Login by edson on CON:. 
+[2025/08/10@08:51:02.601-0300] P-64172      T-48168 I ABL     3: (7129)  Usr 3 set name to edson. 
+[2025/08/10@08:51:12.835-0300] P-64172      T-48168 I ABL     3: (453)   Logout by edson on CON:. 
+[2025/08/10@08:53:17.736-0300] P-59432      T-61900 I SHUT    3: (452)   Login by edson on batch. 
+[2025/08/10@08:53:17.738-0300] P-59432      T-61900 I SHUT    3: (542)   Server shutdown started by edson on batch. 
+[2025/08/10@08:53:17.946-0300] P-44128      T-16952 I BROKER  0: (15193) The normal shutdown of the database will continue for 10 Min 0 Sec if required. 
+[2025/08/10@08:53:17.948-0300] P-44128      T-16952 I BROKER  0: (2248)  Begin normal shutdown 
+[2025/08/10@08:53:18.952-0300] P-44128      T-16952 I BROKER  0: (2263)  Resending shutdown request to 1 user(s). 
+[2025/08/10@08:53:19.670-0300] P-37544      T-58572 I SQLSRV2 1: (19288) service name: JVM Param Service : Exiting, status = 0
+[2025/08/10@08:53:21.247-0300] P-37544      T-42344 I SQLSRV2 1: (19200) Disconnected due to shutdown of primary database: C:\treinamento\workspace\Projeto-Xtudo\xtudo
+[2025/08/10@08:53:21.249-0300] P-37544      T-42344 I SQLSRV2 1: (453)   Logout by edson on kubernetes:49362. 
+[2025/08/10@08:53:22.005-0300] P-37544      T-24912 I SQLSRV2 1: (453)   Logout by edson on CON:. 
+[2025/08/10@08:53:27.061-0300] P-44128      T-16952 I BROKER  0: (15109) At Database close the number of live transactions is 0. 
+[2025/08/10@08:53:27.062-0300] P-44128      T-16952 I BROKER  0: (15743) Before Image Log Completion at Block 24 Offset 8112. 
+[2025/08/10@08:53:27.064-0300] P-44128      T-16952 I BROKER  0: (453)   Logout by edson on batch. 
+[2025/08/10@08:53:27.065-0300] P-44128      T-16952 I BROKER   : (16869) Removed shared memory with segment_id: 3033387696128 
+[2025/08/10@08:53:27.065-0300] P-44128      T-16952 I BROKER   : (334)   Multi-user session end. 
+[2025/08/10@08:53:27.833-0300] P-59432      T-61900 I SHUT    3: (453)   Logout by edson on batch. 
+
+                Sun Aug 10 08:53:46 2025
+[2025/08/10@08:53:46.562-0300] P-19524      T-58104 I ABL      : (451)   Single-user session begin for edson on CON:. 
+[2025/08/10@08:53:46.563-0300] P-19524      T-58104 I ABL      : (15321) Before Image Log Initialization at block 24  offset 8112. 
+[2025/08/10@08:53:46.582-0300] P-19524      T-58104 I ABL      : (7129)  Usr 0 set name to edson. 
+[2025/08/10@08:57:16.314-0300] P-19524      T-58104 I ABL      : (15109) At Database close the number of live transactions is 0. 
+[2025/08/10@08:57:16.314-0300] P-19524      T-58104 I ABL      : (15743) Before Image Log Completion at Block 24 Offset 8164. 
+[2025/08/10@08:57:16.316-0300] P-19524      T-58104 I ABL      : (334)   Single-user session end. 
+
+                Sun Aug 10 08:58:12 2025
+[2025/08/10@08:58:12.686-0300] P-43648      T-45272 I BROKER  0: (333)   Multi-user session begin. 
+[2025/08/10@08:58:12.687-0300] P-43648      T-45272 I BROKER  0: (15321) Before Image Log Initialization at block 24  offset 8164. 
+[2025/08/10@08:58:12.694-0300] P-43648      T-45272 I BROKER  0: (452)   Login by edson on batch. 
+[2025/08/10@08:58:12.695-0300] P-43648      T-45272 I BROKER  0: (4393)  This server is licensed for local logins only. 
+[2025/08/10@08:58:12.700-0300] P-43648      T-45272 I BROKER  0: (5644)  Started for 22200 using TCP IPV4 address 127.0.0.1, pid 43648. 
+[2025/08/10@08:58:12.701-0300] P-43648      T-45272 I BROKER  0: (19117) This installation is licensed to: Preferred Company by C:\Progress\OpenEdge\progress.cfg 
+[2025/08/10@08:58:12.701-0300] P-43648      T-45272 I BROKER  0: (19116) Product: Progress Dev Studio OE installed with serial number: 6077521 expiration: None. 
+[2025/08/10@08:58:12.701-0300] P-43648      T-45272 I BROKER  0: (4234)  Progress OpenEdge Release 12.8 build 1207 on WINNT . 
+[2025/08/10@08:58:12.701-0300] P-43648      T-45272 I BROKER  0: (19552) Broker with server num 0 logged in. 
+[2025/08/10@08:58:12.701-0300] P-43648      T-45272 I BROKER  0: (4281)  Server started by edson on batch. 
+[2025/08/10@08:58:12.702-0300] P-43648      T-45272 I BROKER  0: (6574)  Started using pid: 43648. 
+[2025/08/10@08:58:12.702-0300] P-43648      T-45272 I BROKER  0: (9426)  Large database file access has been enabled. 
+[2025/08/10@08:58:12.702-0300] P-43648      T-45272 I BROKER  0: (15219) Encryption enabled: 0 
+[2025/08/10@08:58:12.702-0300] P-43648      T-45272 I BROKER  0: (15824) Multi-tenancy enabled: 0 
+[2025/08/10@08:58:12.702-0300] P-43648      T-45272 I BROKER  0: (15824) Table Partitioning enabled: 0 
+[2025/08/10@08:58:12.702-0300] P-43648      T-45272 I BROKER  0: (15824) Authentication Gateway enabled: 0 
+[2025/08/10@08:58:12.702-0300] P-43648      T-45272 I BROKER  0: (9336)  Created shared memory with segment_id: 1 
+[2025/08/10@08:58:12.702-0300] P-43648      T-45272 I BROKER  0: (4250)  Before-Image Cluster Size: 524288 
+[2025/08/10@08:58:12.702-0300] P-43648      T-45272 I BROKER  0: (4251)  Before-Image Block Size: 8192 
+[2025/08/10@08:58:12.702-0300] P-43648      T-45272 I BROKER  0: (4255)  After-Image Block Size: 8192. 
+[2025/08/10@08:58:12.702-0300] P-43648      T-45272 I BROKER  0: (20665) Database Code Page: iso8859-1. 
+[2025/08/10@08:58:12.703-0300] P-43648      T-45272 I BROKER  0: (20666) Database Collation: basic. 
+[2025/08/10@08:58:12.703-0300] P-43648      T-45272 I BROKER  0: (20667) Word-rule File Number: 0. 
+[2025/08/10@08:58:12.703-0300] P-43648      T-45272 I BROKER  0: (20668) Word-rule File CRC: 0. 
+[2025/08/10@08:58:12.703-0300] P-43648      T-45272 I BROKER  0: (13873) After-image Management Archival Directory List (-aiarcdir): Not Enabled 
+[2025/08/10@08:58:12.703-0300] P-43648      T-45272 I BROKER  0: (13874) Create After-image Management Archival Directory(s) (-aiarcdircreate): Not Enabled 
+[2025/08/10@08:58:12.703-0300] P-43648      T-45272 I BROKER  0: (13872) After-image Management Archival Interval (-aiarcinterval): -1 
+[2025/08/10@08:58:12.703-0300] P-43648      T-45272 I BROKER  0: (4256)  Number of After-Image Buffers (-aibufs): 64 
+[2025/08/10@08:58:12.703-0300] P-43648      T-45272 I BROKER  0: (4254)  After-Image Stall (-aistall): Not Enabled 
+[2025/08/10@08:58:12.703-0300] P-43648      T-45272 I BROKER  0: (17555) Starting index number for statistics range (-baseindex): 1 
+[2025/08/10@08:58:12.703-0300] P-43648      T-45272 I BROKER  0: (19091) Starting LOB number for statistics range (-baselob): 1 
+[2025/08/10@08:58:12.703-0300] P-43648      T-45272 I BROKER  0: (17554) Starting table number for statistics range (-basetable): 1 
+[2025/08/10@08:58:12.704-0300] P-43648      T-45272 I BROKER  0: (18406) Starting index number per user for statistics range (-baseuserindex): 1 
+[2025/08/10@08:58:12.704-0300] P-43648      T-45272 I BROKER  0: (19092) Starting LOB number per user for statistics range (-baseuserlob): 1 
+[2025/08/10@08:58:12.704-0300] P-43648      T-45272 I BROKER  0: (18404) Starting table number per user for statistics range (-baseusertable): 1 
+[2025/08/10@08:58:12.704-0300] P-43648      T-45272 I BROKER  0: (4252)  Number of Before-Image Buffers (-bibufs): 64 
+[2025/08/10@08:58:12.704-0300] P-43648      T-45272 I BROKER  0: (20052) BI Scan Time (-biscantime): 10 seconds 
+[2025/08/10@08:58:12.704-0300] P-43648      T-45272 I BROKER  0: (6552)  BI File Threshold Stall (-bistall): Disabled 
+[2025/08/10@08:58:12.704-0300] P-43648      T-45272 I BROKER  0: (9238)  BI File Threshold size (-bithold): 0.0   Bytes 
+[2025/08/10@08:58:12.704-0300] P-43648      T-45272 I BROKER  0: (6573)  Database Blocksize (-blocksize): 4096 
+[2025/08/10@08:58:12.704-0300] P-43648      T-45272 I BROKER  0: (12812) BIW writer delay (-bwdelay): 30 
+[2025/08/10@08:58:12.704-0300] P-43648      T-45272 I BROKER  0: (12813) Allowed index cursors (-c): 84 
+[2025/08/10@08:58:12.705-0300] P-43648      T-45272 I BROKER  0: (18495) CDC cache size (-cdcsize): 200k bytes 
+[2025/08/10@08:58:12.705-0300] P-43648      T-45272 I BROKER  0: (12265) SSL Certificate Store Path (-certstorepath): Not Enabled 
+[2025/08/10@08:58:12.705-0300] P-43648      T-45272 I BROKER  0: (20643) Client Database-Request Statement Caching directory (-clstmtcachedir): Not Enabled 
+[2025/08/10@08:58:12.705-0300] P-43648      T-45272 I BROKER  0: (4264)  Character Set (-cpinternal): ISO8859-1 
+[2025/08/10@08:58:12.705-0300] P-43648      T-45272 I BROKER  0: (19442) C stack print option (-cstackPrintopt): 0 
+[2025/08/10@08:58:12.705-0300] P-43648      T-45272 I BROKER  0: (4235)  Physical Database Name (-db): C:/treinamento/workspace/Projeto-Xtudo/xtudo 
+[2025/08/10@08:58:12.705-0300] P-43648      T-45272 I BROKER  0: (19519) Number of DB Notification Operations (-dbnotifyops): 16 
+[2025/08/10@08:58:12.705-0300] P-43648      T-45272 I BROKER  0: (19511) DB Notification Time (-dbnotifytime): 30 seconds 
+[2025/08/10@08:58:12.706-0300] P-43648      T-45272 I BROKER  0: (18558) Diagnostic directory (-diagDir): Not Enabled 
+[2025/08/10@08:58:12.706-0300] P-43648      T-45272 I BROKER  0: (18576) Diagnostic events value (-diagEvent): LockTable:0,BiThold:0,SysErr:0 
+[2025/08/10@08:58:12.706-0300] P-43648      T-45272 I BROKER  0: (18560) Diagnostic event level (-diagEvtLevel): 0 
+[2025/08/10@08:58:12.706-0300] P-43648      T-45272 I BROKER  0: (18561) Diagnostic field separator (-diagFS): ' ' 
+[2025/08/10@08:58:12.706-0300] P-43648      T-45272 I BROKER  0: (18579) Diagnostic data format (-diagFormat): csv 
+[2025/08/10@08:58:12.706-0300] P-43648      T-45272 I BROKER  0: (18562) Diagnostic pause length (-diagPause): 0 
+[2025/08/10@08:58:12.788-0300] P-43648      T-45272 I BROKER  0: (18563) Diagnostic prefix value (-diagPrefix): diagEvent_ 
+[2025/08/10@08:58:12.788-0300] P-43648      T-45272 I BROKER  0: (18580) Diagnostic procedure (-diagProc): Not Enabled 
+[2025/08/10@08:58:12.788-0300] P-43648      T-45272 I BROKER  0: (4238)  Direct I/O (-directio): Not Enabled 
+[2025/08/10@08:58:12.789-0300] P-43648      T-45272 I BROKER  0: (4236)  Database Type (-dt): PROGRESS 
+[2025/08/10@08:58:12.789-0300] P-43648      T-45272 I BROKER  0: (15218) Encryption cache size (-ecsize): 1000 
+[2025/08/10@08:58:12.789-0300] P-43648      T-45272 I BROKER  0: (12814) Group delay (-groupdelay): 10 
+[2025/08/10@08:58:12.789-0300] P-43648      T-45272 I BROKER  0: (4242)  Hash Table Entries (-hash): 887 
+[2025/08/10@08:58:12.789-0300] P-43648      T-45272 I BROKER  0: (19195) Buffer pool hash table latch percentage (-hashLatchFactor): 10 
+[2025/08/10@08:58:12.790-0300] P-43648      T-45272 I BROKER  0: (20436) Allow hostname alias or specific IP address for the -H parameter (-hostnameAliasing): Not Enabled 
+[2025/08/10@08:58:12.790-0300] P-43648      T-45272 I BROKER  0: (4244)  Crash Recovery (-i): Enabled 
+[2025/08/10@08:58:12.790-0300] P-43648      T-45272 I BROKER  0: (17557) Number of indexes included in statistics collection (-indexrangesize): 50 
+[2025/08/10@08:58:12.791-0300] P-43648      T-45272 I BROKER  0: (14268) TCP/IP Version (-ipver): IPV4 
+[2025/08/10@08:58:12.791-0300] P-43648      T-45272 I BROKER  0: (12263) SSL Key Alias Name (-keyalias): Not Enabled 
+[2025/08/10@08:58:12.791-0300] P-43648      T-45272 I BROKER  0: (19216) Database log file archive directory (-lgArchiveDir): Not Enabled 
+[2025/08/10@08:58:12.791-0300] P-43648      T-45272 I BROKER  0: (19215) Archive database log file before truncation (-lgArchiveEnable): Not Enabled 
+[2025/08/10@08:58:12.791-0300] P-43648      T-45272 I BROKER  0: (19213) Frequency of database log file truncation (-lgTruncateFrequency): -1 
+[2025/08/10@08:58:12.792-0300] P-43648      T-45272 I BROKER  0: (19214) The maximum size the database log file can grow before truncation (-lgTruncateSize): 0MB 
+[2025/08/10@08:58:12.792-0300] P-43648      T-45272 I BROKER  0: (19212) Time of day for the database log file truncation (-lgTruncateTime): 00:00 
+[2025/08/10@08:58:12.792-0300] P-43648      T-45272 I BROKER  0: (19137) Limit .lg file payload (-limitLgPayload): Not Enabled 
+[2025/08/10@08:58:12.792-0300] P-43648      T-45272 I BROKER  0: (12815) Lock table hash table size (-lkhash): 1237 
+[2025/08/10@08:58:12.792-0300] P-43648      T-45272 I BROKER  0: (17805) Original Lock Release Algorithm (-lkrela): Not Enabled 
+[2025/08/10@08:58:12.792-0300] P-43648      T-45272 I BROKER  0: (19090) Number of LOBs included in statistics collection (-lobrangesize): 50 
+[2025/08/10@08:58:12.792-0300] P-43648      T-45272 I BROKER  0: (17560) Number of LRU force skips (-lruskips): 100 
+[2025/08/10@08:58:12.792-0300] P-43648      T-45272 I BROKER  0: (17561) Number of LRU2 force skips (-lru2skips): 0 
+[2025/08/10@08:58:12.793-0300] P-43648      T-45272 I BROKER  0: (13953) Maximum Area Number (-maxArea): 32000 
+[2025/08/10@08:58:12.793-0300] P-43648      T-45272 I BROKER  0: (5649)  Maximum Port for Auto Servers (-maxport): 5000 
+[2025/08/10@08:58:12.793-0300] P-43648      T-45272 I BROKER  0: (12540) Size of JTA transaction table (-maxxids): 100 
+[2025/08/10@08:58:12.793-0300] P-43648      T-45272 I BROKER  0: (5648)  Minimum Port for Auto Servers (-minport): 3000 
+[2025/08/10@08:58:12.793-0300] P-43648      T-45272 I BROKER  0: (17564) Multi-tenancy partition cache size (-mtpmsize): 1024 
+[2025/08/10@08:58:12.793-0300] P-43648      T-45272 I BROKER  0: (12821) Use muxlatches (-mux): 1 
+[2025/08/10@08:58:12.793-0300] P-43648      T-45272 I BROKER  0: (4260)  Maximum Number of Users (-n): 21 
+[2025/08/10@08:58:12.793-0300] P-43648      T-45272 I BROKER  0: (17566) Minimum time to nap at first -spin exhaustion (-nap): 10 
+[2025/08/10@08:58:12.793-0300] P-43648      T-45272 I BROKER  0: (17565) Maximum time to nap at -spin exhaustion (-napmax): 250 
+[2025/08/10@08:58:12.793-0300] P-43648      T-45272 I BROKER  0: (18522) SSL No Host Verify (-nohostverify): Not Enabled 
+[2025/08/10@08:58:12.793-0300] P-43648      T-45272 I BROKER  0: (12273) SSL No Session Cache (-nosessioncache): Not Enabled 
+[2025/08/10@08:58:12.794-0300] P-43648      T-45272 I BROKER  0: (18521) SSL No Session Reuse (-nosessionreuse): Not Enabled 
+[2025/08/10@08:58:12.794-0300] P-43648      T-45272 I BROKER  0: (16689) Login Governor (-nGovernor): 0 of 32000 
+[2025/08/10@08:58:12.794-0300] P-43648      T-45272 I BROKER  0: (18398) Number of checkpoint statistics to record (-numCheckpointStats): 32 
+[2025/08/10@08:58:12.794-0300] P-43648      T-45272 I BROKER  0: (19122) Omit .lg file messages (-omitLgMsgs):  
+[2025/08/10@08:58:12.794-0300] P-43648      T-45272 I BROKER  0: (8527)  Storage object cache size (-omsize): 1024 
+[2025/08/10@08:58:12.794-0300] P-43648      T-45272 I BROKER  0: (20842) Database startup parameter file (-pf): Not Enabled 
+[2025/08/10@08:58:12.795-0300] P-43648      T-45272 I BROKER  0: (13870) Database Service Manager - IPC Queue Size (-pica): 128.0 KBytes 
+[2025/08/10@08:58:12.795-0300] P-43648      T-45272 I BROKER  0: (19347) Maximum nap time when blocked to access PICA queue (-picanap): 1 ms. 
+[2025/08/10@08:58:12.795-0300] P-43648      T-45272 I BROKER  0: (17802) Shared memory segments locked (-pinshm): Not Enabled 
+[2025/08/10@08:58:12.795-0300] P-43648      T-45272 I BROKER  0: (16953) Use pollset mechanism for client/server (-pollset): Not Enabled 
+[2025/08/10@08:58:12.795-0300] P-43648      T-45272 I BROKER  0: (16955) Delay first prefetch message (-prefetchDelay): Enabled 
+[2025/08/10@08:58:12.795-0300] P-43648      T-45272 I BROKER  0: (16956) Prefetch message fill percentage (-prefetchFactor): 100 
+[2025/08/10@08:58:12.795-0300] P-43648      T-45272 I BROKER  0: (16957) Minimum records in prefetch msg (-prefetchNumRecs): 64 
+[2025/08/10@08:58:12.795-0300] P-43648      T-45272 I BROKER  0: (16958) Suspension queue poll priority (-prefetchPriority): 1 
+[2025/08/10@08:58:12.795-0300] P-43648      T-45272 I BROKER  0: (17568) APW queue scan cycle time in milliseconds (-pwqdelay): 100 
+[2025/08/10@08:58:12.795-0300] P-43648      T-45272 I BROKER  0: (17569) APW minimum queue length before write (-pwqmin): 1 
+[2025/08/10@08:58:12.795-0300] P-43648      T-45272 I BROKER  0: (17570) APW buffer scan cycle time in seconds (-pwsdelay): 1 
+[2025/08/10@08:58:12.795-0300] P-43648      T-45272 I BROKER  0: (17571) APW maximum number of buffers to scan per cycle (-pwscan): 5 
+[2025/08/10@08:58:12.795-0300] P-43648      T-45272 I BROKER  0: (17572) APW maximum number of buffers to write per cycle (-pwwmax): 25 
+[2025/08/10@08:58:12.795-0300] P-43648      T-45272 I BROKER  0: (4247)  Before-Image File I/O (-r -R): Reliable 
+[2025/08/10@08:58:12.795-0300] P-43648      T-45272 I BROKER  0: (17563) Record free chain search depth factor (-recspacesearchdepth): 5 
+[2025/08/10@08:58:12.795-0300] P-43648      T-45272 I BROKER  0: (19133) Schema Lock Wait Queue (-schlockwq): Not Enabled 
+[2025/08/10@08:58:12.795-0300] P-43648      T-45272 I BROKER  0: (18478) Security cache size (-secsize): 512 
+[2025/08/10@08:58:12.795-0300] P-43648      T-45272 I BROKER  0: (6526)  Number of Semaphore Sets (-semsets): 3 
+[2025/08/10@08:58:12.795-0300] P-43648      T-45272 I BROKER  0: (12264) SSL Session Timeout (-sessiontimeout): 0 
+[2025/08/10@08:58:12.795-0300] P-43648      T-45272 I BROKER  0: (13924) Maximum Shared Memory Segment Size (-shmsegsize): 1024 Mb 
+[2025/08/10@08:58:12.795-0300] P-43648      T-45272 I BROKER  0: (4243)  Current Spin Lock Tries (-spin): 1 
+[2025/08/10@08:58:12.796-0300] P-43648      T-45272 I BROKER  0: (17803) SSL Encryption for TCP/IP connections (-ssl): Not Enabled 
+[2025/08/10@08:58:12.796-0300] P-43648      T-45272 I BROKER  0: (19329) Database server side join support (-ssj): Not Enabled 
+[2025/08/10@08:58:12.796-0300] P-43648      T-45272 I BROKER  0: (20402) STS Socket Reuse (-stsSocketReuse): Yes 
+[2025/08/10@08:58:12.796-0300] P-43648      T-45272 I BROKER  0: (18525) STS Debug Logging Level default (-stslogginglevel): 0 
+[2025/08/10@08:58:12.796-0300] P-43648      T-45272 I BROKER  0: (17556) Number of tables included in statistics collection (-tablerangesize): 50 
+[2025/08/10@08:58:12.796-0300] P-43648      T-45272 I BROKER  0: (19151) Threaded database server (-threadedServer): Not Enabled 
+[2025/08/10@08:58:12.796-0300] P-43648      T-45272 I BROKER  0: (19159) Thread stack size for threaded database servers (-threadedServerStack): 512Kb 
+[2025/08/10@08:58:12.796-0300] P-43648      T-45272 I BROKER  0: (18407) Number of indexes per user included in statistics collection (-userindexrangesize): 50 
+[2025/08/10@08:58:12.796-0300] P-43648      T-45272 I BROKER  0: (19089) Number of lobs per user included in statistics collection (-userlobrangesize): 50 
+[2025/08/10@08:58:12.796-0300] P-43648      T-45272 I BROKER  0: (18118) User Notification Time (-usernotifytime): 600 seconds 
+[2025/08/10@08:58:12.796-0300] P-43648      T-45272 I BROKER  0: (18405) Number of tables per user included in statistics collection (-usertablerangesize): 50 
+[2025/08/10@08:58:12.797-0300] P-43648      T-45272 I BROKER  0: (14017) Area block consistency check in area "" (-AreaCheck): Not Enabled 
+[2025/08/10@08:58:12.797-0300] P-43648      T-45272 I BROKER  0: (4239)  Number of Database Buffers (-B): 3000 
+[2025/08/10@08:58:12.797-0300] P-43648      T-45272 I BROKER  0: (17562) Number of Alternate Database Buffers (-B2): 0 
+[2025/08/10@08:58:12.797-0300] P-43648      T-45272 I BROKER  0: (9422)  Maximum private buffers per user (-Bpmax): 64 
+[2025/08/10@08:58:12.797-0300] P-43648      T-45272 I BROKER  0: (14016) Database block consistency check (-DbCheck): Not Enabled 
+[2025/08/10@08:58:12.797-0300] P-43648      T-45272 I BROKER  0: (13869) Database Service Manager - Service(s) to start (-DBService): Not Enabled 
+[2025/08/10@08:58:12.797-0300] P-43648      T-45272 I BROKER  0: (10535) Enhanced Read-Only mode (-ERO): Not Enabled 
+[2025/08/10@08:58:12.797-0300] P-43648      T-45272 I BROKER  0: (4237)  Force Access (-F): Not Enabled 
+[2025/08/10@08:58:12.797-0300] P-43648      T-45272 I BROKER  0: (4249)  Before-Image Truncate Interval (-G): 0 
+[2025/08/10@08:58:12.797-0300] P-43648      T-45272 I BROKER  0: (4261)  Host Name (-H): EDSON 
+[2025/08/10@08:58:12.798-0300] P-43648      T-45272 I BROKER  0: (14018) Index block consistency check in index "", partitionID -32767(-IndexCheck): Not Enabled 
+[2025/08/10@08:58:12.798-0300] P-43648      T-45272 I BROKER  0: (4241)  Current Size of Lock Table (-L): 8192 
+[2025/08/10@08:58:12.798-0300] P-43648      T-45272 I BROKER  0: (16688) Lock Governor (-LGovernor): 0% 
+[2025/08/10@08:58:12.798-0300] P-43648      T-45272 I BROKER  0: (4257)  Maximum Number of Clients Per Server (-Ma): 5 
+[2025/08/10@08:58:12.798-0300] P-43648      T-45272 I BROKER  0: (14015) Memory overwrite check (-MemCheck): Not Enabled 
+[2025/08/10@08:58:12.798-0300] P-43648      T-45272 I BROKER  0: (4245)  Delay of Before-Image Flush (-Mf): 3 
+[2025/08/10@08:58:12.798-0300] P-43648      T-45272 I BROKER  0: (4259)  Minimum Clients Per Server (-Mi): 1 
+[2025/08/10@08:58:12.798-0300] P-43648      T-45272 I BROKER  0: (12818) Message Buffer Size (-Mm): 8192 
+[2025/08/10@08:58:12.798-0300] P-43648      T-45272 I BROKER  0: (4258)  Maximum Number of Servers (-Mn): 5 
+[2025/08/10@08:58:12.798-0300] P-43648      T-45272 I BROKER  0: (12819) Servers per Protocol (-Mp): 0 
+[2025/08/10@08:58:12.798-0300] P-43648      T-45272 I BROKER  0: (5647)  Maximum Servers Per Broker (-Mpb): 0 
+[2025/08/10@08:58:12.798-0300] P-43648      T-45272 I BROKER  0: (4240)  Excess Shared Memory Size (-Mxs): 39 
+[2025/08/10@08:58:12.798-0300] P-43648      T-45272 I BROKER  0: (4263)  Network Type (-N): TCP 
+[2025/08/10@08:58:12.798-0300] P-43648      T-45272 I BROKER  0: (16954) Server network message wait time (-Nmsgwait): 2 
+[2025/08/10@08:58:12.798-0300] P-43648      T-45272 I BROKER  0: (10357) Pending client connection timeout (-PendConnTime): 0 
+[2025/08/10@08:58:12.798-0300] P-43648      T-45272 I BROKER  0: (4262)  Service Name (-S): 22200 
+[2025/08/10@08:58:12.798-0300] P-43648      T-45272 I BROKER  0: (17804) Broker server group support (-ServerType): BOTH 
+[2025/08/10@08:58:12.798-0300] P-43648      T-45272 I BROKER  0: (19342) SQL Autonomous Update Statistics (-SQLAutoStats): OFF 
+[2025/08/10@08:58:12.799-0300] P-43648      T-45272 I BROKER  0: (10028) SQL Server Max Open Cursors (-SQLCursors): 50 
+[2025/08/10@08:58:12.799-0300] P-43648      T-45272 I BROKER  0: (20037) SQL Enable Core Generation (-SQLEnableCoreGeneration): OFF 
+[2025/08/10@08:58:12.799-0300] P-43648      T-45272 I BROKER  0: (20038) SQL Failure Driven Log (-SQLFailureDrivenLog): OFF 
+[2025/08/10@08:58:12.799-0300] P-43648      T-45272 I BROKER  0: (17567) Number of seconds for a SQL client to wait for a lock conflict to be resolved (-SQLLockWaitTimeout): 5. 
+[2025/08/10@08:58:12.799-0300] P-43648      T-45272 I BROKER  0: (19134) SQL rowid identifier (-SQLQuotedRowid): Standard 
+[2025/08/10@08:58:12.799-0300] P-43648      T-45272 I BROKER  0: (10026) SQL Server Stack Size (-SQLStack): 1000 
+[2025/08/10@08:58:12.799-0300] P-43648      T-45272 I BROKER  0: (10027) SQL Server Statement Cache Size (-SQLStmtCache): 100 
+[2025/08/10@08:58:12.799-0300] P-43648      T-45272 I BROKER  0: (10029) Size [1K byte units] of SQL Server temp table buffer (-SQLTempBuff): 1000 
+[2025/08/10@08:58:12.799-0300] P-43648      T-45272 I BROKER  0: (10030) Size [1K byte units] of SQL Server temp table disk storage (-SQLTempDisk): 500000 
+[2025/08/10@08:58:12.799-0300] P-43648      T-45272 I BROKER  0: (10031) Size [1K byte units] of SQL Server temp table data page (-SQLTempPgSize): 8 
+[2025/08/10@08:58:12.799-0300] P-43648      T-45272 I BROKER  0: (17955) Authorized data truncation (-SQLTruncateTooLarge): OFF 
+[2025/08/10@08:58:12.799-0300] P-43648      T-45272 I BROKER  0: (18156) SQL Autonomous Schema Update (-SQLWidthUpdate): OFF 
+[2025/08/10@08:58:12.799-0300] P-43648      T-45272 I BROKER  0: (14019) Record block consistency check in table "", partitionID -32767(-TableCheck): Not Enabled 
+[2025/08/10@08:58:12.799-0300] P-43648      T-45272 I BROKER  0: (17717) TXE Lock retry limit (-TXERetryLimit): 0 
+[2025/08/10@08:58:12.799-0300] P-43648      T-45272 I BROKER  0: (13896) TXE Commit lock skip limit (-TXESkipLimit): 10000 
+[2025/08/10@08:58:12.800-0300] P-43648      T-45272 I BROKER  0: (10836) Database connections are not allowed at this time. 
+[2025/08/10@08:58:12.800-0300] P-43648      T-45272 I BROKER  0: (10471) Database connections have been enabled. 
+[2025/08/10@08:58:12.998-0300] P-58272      T-55908 I ABL     1: (452)   Login by edson on CON:. 
+[2025/08/10@08:58:13.014-0300] P-58272      T-55908 I ABL     1: (7129)  Usr 1 set name to edson. 
+[2025/08/10@08:58:42.405-0300] P-58272      T-55908 I ABL     1: (453)   Logout by edson on CON:. 
+[2025/08/10@09:01:37.415-0300] P-56072      T-59184 I ABL     1: (452)   Login by edson on CON:. 
+[2025/08/10@09:01:37.418-0300] P-56072      T-59184 I ABL     1: (7129)  Usr 1 set name to edson. 
+[2025/08/10@09:01:59.018-0300] P-28276      T-49900 I ABL     2: (452)   Login by edson on CON:. 
+[2025/08/10@09:01:59.026-0300] P-28276      T-49900 I ABL     2: (7129)  Usr 2 set name to edson. 
+[2025/08/10@09:02:02.085-0300] P-28276      T-49900 I ABL     2: (453)   Logout by edson on CON:. 
+[2025/08/10@09:02:16.702-0300] P-53984      T-64300 I ABL     2: (452)   Login by edson on CON:. 
+[2025/08/10@09:02:16.710-0300] P-53984      T-64300 I ABL     2: (7129)  Usr 2 set name to edson. 
+[2025/08/10@09:02:17.809-0300] P-53984      T-64300 I ABL     2: (453)   Logout by edson on CON:. 
+[2025/08/10@09:02:25.502-0300] P-62424      T-54188 I ABL     2: (452)   Login by edson on CON:. 
+[2025/08/10@09:02:25.510-0300] P-62424      T-54188 I ABL     2: (7129)  Usr 2 set name to edson. 
+[2025/08/10@09:02:26.608-0300] P-62424      T-54188 I ABL     2: (453)   Logout by edson on CON:. 
+[2025/08/10@09:02:52.149-0300] P-64004      T-9080  I ABL     2: (452)   Login by edson on CON:. 
+[2025/08/10@09:02:52.157-0300] P-64004      T-9080  I ABL     2: (7129)  Usr 2 set name to edson. 
+[2025/08/10@09:02:54.237-0300] P-64004      T-9080  I ABL     2: (453)   Logout by edson on CON:. 
+[2025/08/10@09:18:46.275-0300] P-59564      T-62504 I ABL     2: (452)   Login by edson on CON:. 
+[2025/08/10@09:18:46.287-0300] P-59564      T-62504 I ABL     2: (7129)  Usr 2 set name to edson. 
+[2025/08/10@09:18:52.407-0300] P-59564      T-62504 I ABL     2: (453)   Logout by edson on CON:. 
+[2025/08/10@09:22:52.382-0300] P-58324      T-62084 I ABL     2: (452)   Login by edson on CON:. 
+[2025/08/10@09:22:52.390-0300] P-58324      T-62084 I ABL     2: (7129)  Usr 2 set name to edson. 
+[2025/08/10@09:23:03.639-0300] P-58324      T-62084 I ABL     2: (453)   Logout by edson on CON:. 
+[2025/08/10@09:29:42.828-0300] P-56856      T-10112 I ABL     2: (452)   Login by edson on CON:. 
+[2025/08/10@09:29:42.836-0300] P-56856      T-10112 I ABL     2: (7129)  Usr 2 set name to edson. 
+[2025/08/10@09:29:52.011-0300] P-56856      T-10112 I ABL     2: (453)   Logout by edson on CON:. 
+[2025/08/10@09:31:56.995-0300] P-61156      T-51364 I ABL     2: (452)   Login by edson on CON:. 
+[2025/08/10@09:31:57.003-0300] P-61156      T-51364 I ABL     2: (7129)  Usr 2 set name to edson. 
+[2025/08/10@09:34:22.532-0300] P-61156      T-51364 I ABL     2: (453)   Logout by edson on CON:. 
+[2025/08/10@09:38:49.656-0300] P-56384      T-64228 I ABL     2: (452)   Login by edson on CON:. 
+[2025/08/10@09:38:49.665-0300] P-56384      T-64228 I ABL     2: (7129)  Usr 2 set name to edson. 
+[2025/08/10@09:38:51.747-0300] P-56384      T-64228 I ABL     2: (453)   Logout by edson on CON:. 
+[2025/08/10@09:39:30.071-0300] P-9716       T-51320 I ABL     2: (452)   Login by edson on CON:. 
+[2025/08/10@09:39:30.078-0300] P-9716       T-51320 I ABL     2: (7129)  Usr 2 set name to edson. 
+[2025/08/10@09:39:32.147-0300] P-9716       T-51320 I ABL     2: (453)   Logout by edson on CON:. 
+[2025/08/10@09:53:18.451-0300] P-60848      T-57664 I ABL     2: (452)   Login by edson on CON:. 
+[2025/08/10@09:53:18.462-0300] P-60848      T-57664 I ABL     2: (7129)  Usr 2 set name to edson. 
+[2025/08/10@09:53:30.675-0300] P-60848      T-57664 I ABL     2: (453)   Logout by edson on CON:. 
+[2025/08/10@09:55:33.357-0300] P-61468      T-39584 I ABL     2: (452)   Login by edson on CON:. 
+[2025/08/10@09:55:33.364-0300] P-61468      T-39584 I ABL     2: (7129)  Usr 2 set name to edson. 
+[2025/08/10@09:55:44.597-0300] P-61468      T-39584 I ABL     2: (453)   Logout by edson on CON:. 
+[2025/08/10@09:56:10.263-0300] P-64508      T-61336 I ABL     2: (452)   Login by edson on CON:. 
+[2025/08/10@09:56:10.272-0300] P-64508      T-61336 I ABL     2: (7129)  Usr 2 set name to edson. 
+[2025/08/10@09:56:12.354-0300] P-64508      T-61336 I ABL     2: (453)   Logout by edson on CON:. 
+[2025/08/10@09:56:47.211-0300] P-53476      T-2968  I ABL     2: (452)   Login by edson on CON:. 
+[2025/08/10@09:56:47.221-0300] P-53476      T-2968  I ABL     2: (7129)  Usr 2 set name to edson. 
+[2025/08/10@09:56:49.299-0300] P-53476      T-2968  I ABL     2: (453)   Logout by edson on CON:. 
+[2025/08/10@09:57:12.521-0300] P-62336      T-59904 I ABL     2: (452)   Login by edson on CON:. 
+[2025/08/10@09:57:12.529-0300] P-62336      T-59904 I ABL     2: (7129)  Usr 2 set name to edson. 
+[2025/08/10@09:57:32.805-0300] P-62336      T-59904 I ABL     2: (453)   Logout by edson on CON:. 
+[2025/08/10@09:57:47.659-0300] P-16160      T-55804 I ABL     2: (452)   Login by edson on CON:. 
+[2025/08/10@09:57:47.668-0300] P-16160      T-55804 I ABL     2: (7129)  Usr 2 set name to edson. 
+[2025/08/10@09:57:48.772-0300] P-16160      T-55804 I ABL     2: (453)   Logout by edson on CON:. 
+[2025/08/10@09:58:33.065-0300] P-63304      T-62204 I ABL     2: (452)   Login by edson on CON:. 
+[2025/08/10@09:58:33.075-0300] P-63304      T-62204 I ABL     2: (7129)  Usr 2 set name to edson. 
+[2025/08/10@09:58:53.339-0300] P-63304      T-62204 I ABL     2: (453)   Logout by edson on CON:. 
+[2025/08/10@09:58:59.850-0300] P-44132      T-62548 I ABL     2: (452)   Login by edson on CON:. 
+[2025/08/10@09:58:59.859-0300] P-44132      T-62548 I ABL     2: (7129)  Usr 2 set name to edson. 
+[2025/08/10@09:59:00.953-0300] P-44132      T-62548 I ABL     2: (453)   Logout by edson on CON:. 
+[2025/08/10@09:59:02.906-0300] P-52368      T-55560 I ABL     2: (452)   Login by edson on CON:. 
+[2025/08/10@09:59:02.914-0300] P-52368      T-55560 I ABL     2: (7129)  Usr 2 set name to edson. 
+[2025/08/10@09:59:04.004-0300] P-52368      T-55560 I ABL     2: (453)   Logout by edson on CON:. 
+[2025/08/10@09:59:10.486-0300] P-40040      T-28532 I ABL     2: (452)   Login by edson on CON:. 
+[2025/08/10@09:59:10.494-0300] P-40040      T-28532 I ABL     2: (7129)  Usr 2 set name to edson. 
+[2025/08/10@09:59:11.596-0300] P-40040      T-28532 I ABL     2: (453)   Logout by edson on CON:. 
+[2025/08/10@10:00:18.408-0300] P-33120      T-30428 I ABL     2: (452)   Login by edson on CON:. 
+[2025/08/10@10:00:18.419-0300] P-33120      T-30428 I ABL     2: (7129)  Usr 2 set name to edson. 
+[2025/08/10@10:00:41.743-0300] P-33120      T-30428 I ABL     2: (453)   Logout by edson on CON:. 
+[2025/08/10@10:03:17.039-0300] P-51348      T-42836 I ABL     2: (452)   Login by edson on CON:. 
+[2025/08/10@10:03:17.047-0300] P-51348      T-42836 I ABL     2: (7129)  Usr 2 set name to edson. 
+[2025/08/10@10:03:30.245-0300] P-51348      T-42836 I ABL     2: (453)   Logout by edson on CON:. 
+[2025/08/10@10:05:57.905-0300] P-57000      T-62592 I ABL     2: (452)   Login by edson on CON:. 
+[2025/08/10@10:05:57.916-0300] P-57000      T-62592 I ABL     2: (7129)  Usr 2 set name to edson. 
+[2025/08/10@10:06:24.219-0300] P-57000      T-62592 I ABL     2: (453)   Logout by edson on CON:. 
+[2025/08/10@10:08:25.793-0300] P-58472      T-58524 I ABL     2: (452)   Login by edson on CON:. 
+[2025/08/10@10:08:25.802-0300] P-58472      T-58524 I ABL     2: (7129)  Usr 2 set name to edson. 
+[2025/08/10@10:08:34.981-0300] P-58472      T-58524 I ABL     2: (453)   Logout by edson on CON:. 
+[2025/08/10@10:09:27.625-0300] P-57100      T-62520 I ABL     2: (452)   Login by edson on CON:. 
+[2025/08/10@10:09:27.635-0300] P-57100      T-62520 I ABL     2: (7129)  Usr 2 set name to edson. 
+[2025/08/10@10:10:14.265-0300] P-57100      T-62520 I ABL     2: (453)   Logout by edson on CON:. 
+[2025/08/10@10:10:18.122-0300] P-10112      T-62600 I ABL     2: (452)   Login by edson on CON:. 
+[2025/08/10@10:10:18.130-0300] P-10112      T-62600 I ABL     2: (7129)  Usr 2 set name to edson. 
+[2025/08/10@10:41:38.593-0300] P-10112      T-62600 I ABL     2: (453)   Logout by edson on CON:. 
+[2025/08/10@10:41:51.297-0300] P-63468      T-60640 I ABL     2: (452)   Login by edson on CON:. 
+[2025/08/10@10:41:51.306-0300] P-63468      T-60640 I ABL     2: (7129)  Usr 2 set name to edson. 
+[2025/08/10@10:43:30.218-0300] P-22088      T-58148 I ABL     3: (452)   Login by edson on CON:. 
+[2025/08/10@10:43:30.241-0300] P-22088      T-58148 I ABL     3: (7129)  Usr 3 set name to edson. 
+[2025/08/10@10:44:40.964-0300] P-22088      T-58148 I ABL     3: (453)   Logout by edson on CON:. 
+[2025/08/10@10:44:46.192-0300] P-63468      T-60640 I ABL     2: (453)   Logout by edson on CON:. 
+[2025/08/10@10:54:49.432-0300] P-60904      T-55744 I ABL     2: (452)   Login by edson on CON:. 
+[2025/08/10@10:54:49.445-0300] P-60904      T-55744 I ABL     2: (7129)  Usr 2 set name to edson. 
+[2025/08/10@10:54:58.626-0300] P-60904      T-55744 I ABL     2: (453)   Logout by edson on CON:. 
+[2025/08/10@11:02:58.771-0300] P-63372      T-43276 I ABL     2: (452)   Login by edson on CON:. 
+[2025/08/10@11:02:58.780-0300] P-63372      T-43276 I ABL     2: (7129)  Usr 2 set name to edson. 
+[2025/08/10@11:03:00.868-0300] P-63372      T-43276 I ABL     2: (453)   Logout by edson on CON:. 
+[2025/08/10@11:03:20.323-0300] P-59508      T-55080 I ABL     2: (452)   Login by edson on CON:. 
+[2025/08/10@11:03:20.338-0300] P-59508      T-55080 I ABL     2: (7129)  Usr 2 set name to edson. 
+[2025/08/10@11:03:26.462-0300] P-59508      T-55080 I ABL     2: (453)   Logout by edson on CON:. 
+[2025/08/10@11:04:32.807-0300] P-58196      T-37668 I ABL     2: (452)   Login by edson on CON:. 
+[2025/08/10@11:04:32.822-0300] P-58196      T-37668 I ABL     2: (7129)  Usr 2 set name to edson. 
+[2025/08/10@11:04:36.975-0300] P-58196      T-37668 I ABL     2: (453)   Logout by edson on CON:. 
+[2025/08/10@11:04:38.839-0300] P-4600       T-57100 I ABL     2: (452)   Login by edson on CON:. 
+[2025/08/10@11:04:38.849-0300] P-4600       T-57100 I ABL     2: (7129)  Usr 2 set name to edson. 
+[2025/08/10@11:04:49.024-0300] P-4600       T-57100 I ABL     2: (453)   Logout by edson on CON:. 
+[2025/08/10@11:08:34.005-0300] P-50688      T-54208 I ABL     2: (452)   Login by edson on CON:. 
+[2025/08/10@11:08:34.014-0300] P-50688      T-54208 I ABL     2: (7129)  Usr 2 set name to edson. 
+[2025/08/10@11:08:36.105-0300] P-50688      T-54208 I ABL     2: (453)   Logout by edson on CON:. 
+[2025/08/10@11:08:45.357-0300] P-53636      T-59444 I ABL     2: (452)   Login by edson on CON:. 
+[2025/08/10@11:08:45.367-0300] P-53636      T-59444 I ABL     2: (7129)  Usr 2 set name to edson. 
+[2025/08/10@11:08:47.451-0300] P-53636      T-59444 I ABL     2: (453)   Logout by edson on CON:. 
+[2025/08/10@13:06:15.821-0300] P-53440      T-53660 I ABL     2: (452)   Login by edson on CON:. 
+[2025/08/10@13:06:15.845-0300] P-53440      T-53660 I ABL     2: (7129)  Usr 2 set name to edson. 
+[2025/08/10@13:06:28.064-0300] P-53440      T-53660 I ABL     2: (453)   Logout by edson on CON:. 
+[2025/08/10@13:12:06.687-0300] P-60732      T-52368 I ABL     2: (452)   Login by edson on CON:. 
+[2025/08/10@13:12:06.699-0300] P-60732      T-52368 I ABL     2: (7129)  Usr 2 set name to edson. 
+[2025/08/10@13:12:21.969-0300] P-60732      T-52368 I ABL     2: (453)   Logout by edson on CON:. 
+[2025/08/10@13:13:56.387-0300] P-60660      T-59428 I ABL     2: (452)   Login by edson on CON:. 
+[2025/08/10@13:13:56.396-0300] P-60660      T-59428 I ABL     2: (7129)  Usr 2 set name to edson. 
+[2025/08/10@13:37:20.008-0300] P-53720      T-59724 I ABL     3: (452)   Login by edson on CON:. 
+[2025/08/10@13:37:20.018-0300] P-53720      T-59724 I ABL     3: (7129)  Usr 3 set name to edson. 
+[2025/08/10@13:37:22.201-0300] P-53720      T-59724 I ABL     3: (453)   Logout by edson on CON:. 
+[2025/08/10@13:37:35.717-0300] P-37752      T-56076 I ABL     3: (452)   Login by edson on CON:. 
+[2025/08/10@13:37:35.728-0300] P-37752      T-56076 I ABL     3: (7129)  Usr 3 set name to edson. 
+[2025/08/10@13:37:51.994-0300] P-37752      T-56076 I ABL     3: (453)   Logout by edson on CON:. 
+[2025/08/10@13:39:57.983-0300] P-61188      T-47172 I ABL     3: (452)   Login by edson on CON:. 
+[2025/08/10@13:39:57.995-0300] P-61188      T-47172 I ABL     3: (7129)  Usr 3 set name to edson. 
+[2025/08/10@13:40:04.124-0300] P-61188      T-47172 I ABL     3: (453)   Logout by edson on CON:. 
+[2025/08/10@13:40:21.838-0300] P-24300      T-3760  I ABL     3: (452)   Login by edson on CON:. 
+[2025/08/10@13:40:21.849-0300] P-24300      T-3760  I ABL     3: (7129)  Usr 3 set name to edson. 
+[2025/08/10@13:40:34.082-0300] P-24300      T-3760  I ABL     3: (453)   Logout by edson on CON:. 
+[2025/08/10@13:44:05.752-0300] P-63716      T-63800 I ABL     3: (452)   Login by edson on CON:. 
+[2025/08/10@13:44:05.761-0300] P-63716      T-63800 I ABL     3: (7129)  Usr 3 set name to edson. 
+[2025/08/10@13:44:07.848-0300] P-63716      T-63800 I ABL     3: (453)   Logout by edson on CON:. 
+[2025/08/10@13:44:47.320-0300] P-29540      T-64492 I ABL     3: (452)   Login by edson on CON:. 
+[2025/08/10@13:44:47.336-0300] P-29540      T-64492 I ABL     3: (7129)  Usr 3 set name to edson. 
+[2025/08/10@13:44:51.487-0300] P-29540      T-64492 I ABL     3: (453)   Logout by edson on CON:. 
+[2025/08/10@13:45:27.406-0300] P-56988      T-62668 I ABL     3: (452)   Login by edson on CON:. 
+[2025/08/10@13:45:27.414-0300] P-56988      T-62668 I ABL     3: (7129)  Usr 3 set name to edson. 
+[2025/08/10@13:45:37.592-0300] P-56988      T-62668 I ABL     3: (453)   Logout by edson on CON:. 
+[2025/08/10@13:53:28.091-0300] P-63280      T-60240 I ABL     3: (452)   Login by edson on CON:. 
+[2025/08/10@13:53:28.104-0300] P-63280      T-60240 I ABL     3: (7129)  Usr 3 set name to edson. 
+[2025/08/10@13:53:42.301-0300] P-63280      T-60240 I ABL     3: (453)   Logout by edson on CON:. 
+[2025/08/10@13:55:48.567-0300] P-60136      T-56256 I ABL     3: (452)   Login by edson on CON:. 
+[2025/08/10@13:55:48.581-0300] P-60136      T-56256 I ABL     3: (7129)  Usr 3 set name to edson. 
+[2025/08/10@13:55:51.760-0300] P-60136      T-56256 I ABL     3: (453)   Logout by edson on CON:. 
+[2025/08/10@13:56:06.473-0300] P-63736      T-60840 I ABL     3: (452)   Login by edson on CON:. 
+[2025/08/10@13:56:06.484-0300] P-63736      T-60840 I ABL     3: (7129)  Usr 3 set name to edson. 
+[2025/08/10@13:56:09.643-0300] P-63736      T-60840 I ABL     3: (453)   Logout by edson on CON:. 
+[2025/08/10@13:56:30.614-0300] P-63752      T-58648 I ABL     3: (452)   Login by edson on CON:. 
+[2025/08/10@13:56:30.623-0300] P-63752      T-58648 I ABL     3: (7129)  Usr 3 set name to edson. 
+[2025/08/10@13:56:32.703-0300] P-63752      T-58648 I ABL     3: (453)   Logout by edson on CON:. 
+[2025/08/10@13:56:50.901-0300] P-62332      T-61400 I ABL     3: (452)   Login by edson on CON:. 
+[2025/08/10@13:56:50.910-0300] P-62332      T-61400 I ABL     3: (7129)  Usr 3 set name to edson. 
+[2025/08/10@13:56:52.997-0300] P-62332      T-61400 I ABL     3: (453)   Logout by edson on CON:. 
+[2025/08/10@13:57:09.006-0300] P-7292       T-56316 I ABL     3: (452)   Login by edson on CON:. 
+[2025/08/10@13:57:09.017-0300] P-7292       T-56316 I ABL     3: (7129)  Usr 3 set name to edson. 
+[2025/08/10@13:57:43.436-0300] P-7292       T-56316 I ABL     3: (453)   Logout by edson on CON:. 
+[2025/08/10@13:58:06.521-0300] P-47244      T-55660 I ABL     3: (452)   Login by edson on CON:. 
+[2025/08/10@13:58:06.534-0300] P-47244      T-55660 I ABL     3: (7129)  Usr 3 set name to edson. 
+[2025/08/10@13:58:14.732-0300] P-47244      T-55660 I ABL     3: (453)   Logout by edson on CON:. 
+[2025/08/10@14:03:13.678-0300] P-61556      T-63312 I ABL     3: (452)   Login by edson on CON:. 
+[2025/08/10@14:03:13.687-0300] P-61556      T-63312 I ABL     3: (7129)  Usr 3 set name to edson. 
+[2025/08/10@14:03:31.918-0300] P-61556      T-63312 I ABL     3: (453)   Logout by edson on CON:. 
+[2025/08/10@14:04:58.129-0300] P-56980      T-50852 I ABL     3: (452)   Login by edson on CON:. 
+[2025/08/10@14:04:58.141-0300] P-56980      T-50852 I ABL     3: (7129)  Usr 3 set name to edson. 
+[2025/08/10@14:09:40.990-0300] P-62816      T-38176 I ABL     4: (452)   Login by edson on CON:. 
+[2025/08/10@14:09:41.000-0300] P-62816      T-38176 I ABL     4: (7129)  Usr 4 set name to edson. 
+[2025/08/10@14:09:57.270-0300] P-62816      T-38176 I ABL     4: (453)   Logout by edson on CON:. 
+[2025/08/10@14:11:40.607-0300] P-56980      T-50852 I ABL     3: (453)   Logout by edson on CON:. 
+[2025/08/10@14:11:57.163-0300] P-60660      T-59428 I ABL     2: (453)   Logout by edson on CON:. 
+[2025/08/10@14:23:26.399-0300] P-55604      T-8988  I ABL     2: (452)   Login by edson on CON:. 
+[2025/08/10@14:23:26.410-0300] P-55604      T-8988  I ABL     2: (7129)  Usr 2 set name to edson. 
+[2025/08/10@14:23:33.613-0300] P-55604      T-8988  I ABL     2: (453)   Logout by edson on CON:. 
+[2025/08/10@14:23:44.848-0300] P-48712      T-62752 I ABL     2: (452)   Login by edson on CON:. 
+[2025/08/10@14:23:44.859-0300] P-48712      T-62752 I ABL     2: (7129)  Usr 2 set name to edson. 
+[2025/08/10@14:23:46.953-0300] P-48712      T-62752 I ABL     2: (453)   Logout by edson on CON:. 
+[2025/08/10@14:24:05.681-0300] P-61988      T-50408 I ABL     2: (452)   Login by edson on CON:. 
+[2025/08/10@14:24:05.693-0300] P-61988      T-50408 I ABL     2: (7129)  Usr 2 set name to edson. 
+[2025/08/10@14:24:40.183-0300] P-61988      T-50408 I ABL     2: (453)   Logout by edson on CON:. 
+[2025/08/10@14:25:13.790-0300] P-44328      T-46732 I ABL     2: (452)   Login by edson on CON:. 
+[2025/08/10@14:25:13.801-0300] P-44328      T-46732 I ABL     2: (7129)  Usr 2 set name to edson. 
+[2025/08/10@14:25:16.986-0300] P-44328      T-46732 I ABL     2: (453)   Logout by edson on CON:. 
+[2025/08/10@14:26:29.969-0300] P-46312      T-62456 I ABL     2: (452)   Login by edson on CON:. 
+[2025/08/10@14:26:29.979-0300] P-46312      T-62456 I ABL     2: (7129)  Usr 2 set name to edson. 
+[2025/08/10@14:26:36.107-0300] P-46312      T-62456 I ABL     2: (453)   Logout by edson on CON:. 
+[2025/08/10@14:26:45.402-0300] P-11752      T-61376 I ABL     2: (452)   Login by edson on CON:. 
+[2025/08/10@14:26:45.412-0300] P-11752      T-61376 I ABL     2: (7129)  Usr 2 set name to edson. 
+[2025/08/10@14:26:55.584-0300] P-11752      T-61376 I ABL     2: (453)   Logout by edson on CON:. 
+[2025/08/10@14:28:05.092-0300] P-31256      T-58748 I ABL     2: (452)   Login by edson on CON:. 
+[2025/08/10@14:28:05.102-0300] P-31256      T-58748 I ABL     2: (7129)  Usr 2 set name to edson. 
+[2025/08/10@14:28:09.267-0300] P-31256      T-58748 I ABL     2: (453)   Logout by edson on CON:. 
+[2025/08/10@14:28:13.045-0300] P-58656      T-61544 I ABL     2: (452)   Login by edson on CON:. 
+[2025/08/10@14:28:13.053-0300] P-58656      T-61544 I ABL     2: (7129)  Usr 2 set name to edson. 
+[2025/08/10@14:28:49.520-0300] P-58656      T-61544 I ABL     2: (453)   Logout by edson on CON:. 
+[2025/08/10@14:29:10.378-0300] P-55504      T-63788 I ABL     2: (452)   Login by edson on CON:. 
+[2025/08/10@14:29:10.386-0300] P-55504      T-63788 I ABL     2: (7129)  Usr 2 set name to edson. 
+[2025/08/10@14:29:13.444-0300] P-55504      T-63788 I ABL     2: (453)   Logout by edson on CON:. 
+[2025/08/10@14:29:16.476-0300] P-44460      T-62172 I ABL     2: (452)   Login by edson on CON:. 
+[2025/08/10@14:29:16.484-0300] P-44460      T-62172 I ABL     2: (7129)  Usr 2 set name to edson. 
+[2025/08/10@14:46:00.411-0300] P-47616      T-42708 I ABL     3: (452)   Login by edson on CON:. 
+[2025/08/10@14:46:00.420-0300] P-47616      T-42708 I ABL     3: (7129)  Usr 3 set name to edson. 
+[2025/08/10@14:46:05.569-0300] P-47616      T-42708 I ABL     3: (453)   Logout by edson on CON:. 
+[2025/08/10@14:46:24.327-0300] P-52844      T-38492 I ABL     3: (452)   Login by edson on CON:. 
+[2025/08/10@14:46:24.336-0300] P-52844      T-38492 I ABL     3: (7129)  Usr 3 set name to edson. 
+[2025/08/10@14:46:36.572-0300] P-52844      T-38492 I ABL     3: (453)   Logout by edson on CON:. 
+[2025/08/10@14:48:51.537-0300] P-60120      T-50380 I ABL     3: (452)   Login by edson on CON:. 
+[2025/08/10@14:48:51.546-0300] P-60120      T-50380 I ABL     3: (7129)  Usr 3 set name to edson. 
+[2025/08/10@14:49:24.819-0300] P-43648      T-45272 I BROKER  0: (2527)  Disconnecting dead user 3. 
+[2025/08/10@14:49:30.005-0300] P-44460      T-62172 I ABL     2: (453)   Logout by edson on CON:. 
+[2025/08/10@14:51:56.847-0300] P-46008      T-61212 I ABL     2: (452)   Login by edson on CON:. 
+[2025/08/10@14:51:56.891-0300] P-46008      T-61212 I ABL     2: (7129)  Usr 2 set name to edson. 
+[2025/08/10@14:52:02.111-0300] P-46008      T-61212 I ABL     2: (453)   Logout by edson on CON:. 
+[2025/08/10@14:52:15.784-0300] P-63528      T-37128 I ABL     2: (452)   Login by edson on CON:. 
+[2025/08/10@14:52:15.795-0300] P-63528      T-37128 I ABL     2: (7129)  Usr 2 set name to edson. 
+[2025/08/10@14:52:18.980-0300] P-63528      T-37128 I ABL     2: (453)   Logout by edson on CON:. 
+[2025/08/10@14:54:36.788-0300] P-59920      T-60292 I ABL     2: (452)   Login by edson on CON:. 
+[2025/08/10@14:54:36.799-0300] P-59920      T-60292 I ABL     2: (7129)  Usr 2 set name to edson. 
+[2025/08/10@14:54:39.974-0300] P-59920      T-60292 I ABL     2: (453)   Logout by edson on CON:. 
+[2025/08/10@14:54:48.964-0300] P-60472      T-59788 I ABL     2: (452)   Login by edson on CON:. 
+[2025/08/10@14:54:48.978-0300] P-60472      T-59788 I ABL     2: (7129)  Usr 2 set name to edson. 
+[2025/08/10@14:54:53.139-0300] P-60472      T-59788 I ABL     2: (453)   Logout by edson on CON:. 
+[2025/08/10@14:57:52.201-0300] P-61112      T-50212 I ABL     2: (452)   Login by edson on CON:. 
+[2025/08/10@14:57:52.219-0300] P-61112      T-50212 I ABL     2: (7129)  Usr 2 set name to edson. 
+[2025/08/10@14:57:57.337-0300] P-61112      T-50212 I ABL     2: (453)   Logout by edson on CON:. 
+[2025/08/10@16:34:39.619-0300] P-44360      T-62276 I ABL     2: (452)   Login by edson on CON:. 
+[2025/08/10@16:34:39.644-0300] P-44360      T-62276 I ABL     2: (7129)  Usr 2 set name to edson. 
+[2025/08/10@16:34:41.725-0300] P-44360      T-62276 I ABL     2: (453)   Logout by edson on CON:. 
+[2025/08/10@16:38:12.809-0300] P-65232      T-61940 I ABL     2: (452)   Login by edson on CON:. 
+[2025/08/10@16:38:12.820-0300] P-65232      T-61940 I ABL     2: (7129)  Usr 2 set name to edson. 
+[2025/08/10@16:45:23.448-0300] P-65232      T-61940 I ABL     2: (453)   Logout by edson on CON:. 
+[2025/08/10@16:45:26.890-0300] P-65784      T-29412 I ABL     2: (452)   Login by edson on CON:. 
+[2025/08/10@16:45:26.898-0300] P-65784      T-29412 I ABL     2: (7129)  Usr 2 set name to edson. 
+[2025/08/10@16:47:13.082-0300] P-65784      T-29412 I ABL     2: (453)   Logout by edson on CON:. 
+[2025/08/10@16:47:23.971-0300] P-65768      T-10284 I ABL     2: (452)   Login by edson on CON:. 
+[2025/08/10@16:47:23.980-0300] P-65768      T-10284 I ABL     2: (7129)  Usr 2 set name to edson. 
+[2025/08/10@17:02:49.362-0300] P-59872      T-54568 I ABL     3: (452)   Login by edson on CON:. 
+[2025/08/10@17:02:49.390-0300] P-59872      T-54568 I ABL     3: (7129)  Usr 3 set name to edson. 
+[2025/08/10@17:06:27.938-0300] P-57068      T-60828 I ABL     4: (452)   Login by edson on CON:. 
+[2025/08/10@17:06:27.963-0300] P-57068      T-60828 I ABL     4: (7129)  Usr 4 set name to edson. 
+[2025/08/10@17:07:27.621-0300] P-57068      T-60828 I ABL     4: (453)   Logout by edson on CON:. 
+[2025/08/10@17:07:32.533-0300] P-59872      T-54568 I ABL     3: (453)   Logout by edson on CON:. 
+[2025/08/10@17:07:35.511-0300] P-65768      T-10284 I ABL     2: (453)   Logout by edson on CON:. 
+[2025/08/10@17:07:39.851-0300] P-46600      T-65748 I ABL     2: (452)   Login by edson on CON:. 
+[2025/08/10@17:07:39.863-0300] P-46600      T-65748 I ABL     2: (7129)  Usr 2 set name to edson. 
+[2025/08/10@17:07:53.086-0300] P-46600      T-65748 I ABL     2: (453)   Logout by edson on CON:. 
+[2025/08/10@17:54:39.460-0300] P-66804      T-66820 I ABL     2: (452)   Login by edson on CON:. 
+[2025/08/10@17:54:39.471-0300] P-66804      T-66820 I ABL     2: (7129)  Usr 2 set name to edson. 
+[2025/08/10@17:55:59.293-0300] P-66804      T-66820 I ABL     2: (453)   Logout by edson on CON:. 
+[2025/08/10@18:02:59.805-0300] P-68060      T-42824 I ABL     2: (452)   Login by edson on CON:. 
+[2025/08/10@18:02:59.816-0300] P-68060      T-42824 I ABL     2: (7129)  Usr 2 set name to edson. 
+[2025/08/10@18:03:15.016-0300] P-68060      T-42824 I ABL     2: (453)   Logout by edson on CON:. 
+[2025/08/10@18:05:47.084-0300] P-47744      T-63644 I ABL     2: (452)   Login by edson on CON:. 
+[2025/08/10@18:05:47.097-0300] P-47744      T-63644 I ABL     2: (7129)  Usr 2 set name to edson. 
+[2025/08/10@18:12:32.394-0300] P-47744      T-63644 I ABL     2: (453)   Logout by edson on CON:. 
+[2025/08/10@18:12:38.260-0300] P-53508      T-54320 I ABL     2: (452)   Login by edson on CON:. 
+[2025/08/10@18:12:38.270-0300] P-53508      T-54320 I ABL     2: (7129)  Usr 2 set name to edson. 
+[2025/08/10@18:13:08.672-0300] P-53508      T-54320 I ABL     2: (453)   Logout by edson on CON:. 
+[2025/08/10@18:13:15.310-0300] P-66008      T-68516 I ABL     2: (452)   Login by edson on CON:. 
+[2025/08/10@18:13:15.319-0300] P-66008      T-68516 I ABL     2: (7129)  Usr 2 set name to edson. 
+[2025/08/10@18:14:06.767-0300] P-66008      T-68516 I ABL     2: (453)   Logout by edson on CON:. 
+[2025/08/10@18:14:12.475-0300] P-57884      T-50888 I ABL     2: (452)   Login by edson on CON:. 
+[2025/08/10@18:14:12.487-0300] P-57884      T-50888 I ABL     2: (7129)  Usr 2 set name to edson. 
+[2025/08/10@18:14:43.861-0300] P-57884      T-50888 I ABL     2: (453)   Logout by edson on CON:. 
+[2025/08/10@18:14:55.130-0300] P-63200      T-37616 I ABL     2: (452)   Login by edson on CON:. 
+[2025/08/10@18:14:55.141-0300] P-63200      T-37616 I ABL     2: (7129)  Usr 2 set name to edson. 
+[2025/08/10@18:16:53.369-0300] P-63200      T-37616 I ABL     2: (453)   Logout by edson on CON:. 
+[2025/08/10@18:18:51.242-0300] P-68412      T-67112 I ABL     2: (452)   Login by edson on CON:. 
+[2025/08/10@18:18:51.254-0300] P-68412      T-67112 I ABL     2: (7129)  Usr 2 set name to edson. 
+[2025/08/10@18:18:58.458-0300] P-68412      T-67112 I ABL     2: (453)   Logout by edson on CON:. 
+[2025/08/10@18:19:04.319-0300] P-67044      T-65072 I ABL     2: (452)   Login by edson on CON:. 
+[2025/08/10@18:19:04.327-0300] P-67044      T-65072 I ABL     2: (7129)  Usr 2 set name to edson. 
+[2025/08/10@18:19:12.533-0300] P-67044      T-65072 I ABL     2: (453)   Logout by edson on CON:. 
+[2025/08/10@18:20:50.824-0300] P-60528      T-50756 I ABL     2: (452)   Login by edson on CON:. 
+[2025/08/10@18:20:50.838-0300] P-60528      T-50756 I ABL     2: (7129)  Usr 2 set name to edson. 
+[2025/08/10@18:20:55.979-0300] P-60528      T-50756 I ABL     2: (453)   Logout by edson on CON:. 
+[2025/08/10@18:21:16.933-0300] P-15512      T-54320 I ABL     2: (452)   Login by edson on CON:. 
+[2025/08/10@18:21:16.943-0300] P-15512      T-54320 I ABL     2: (7129)  Usr 2 set name to edson. 
+[2025/08/10@18:21:30.158-0300] P-15512      T-54320 I ABL     2: (453)   Logout by edson on CON:. 
+[2025/08/10@18:22:31.021-0300] P-67972      T-68076 I ABL     2: (452)   Login by edson on CON:. 
+[2025/08/10@18:22:31.034-0300] P-67972      T-68076 I ABL     2: (7129)  Usr 2 set name to edson. 
+[2025/08/10@18:22:35.211-0300] P-67972      T-68076 I ABL     2: (453)   Logout by edson on CON:. 
+[2025/08/10@18:22:38.452-0300] P-65216      T-46572 I ABL     2: (452)   Login by edson on CON:. 
+[2025/08/10@18:22:38.463-0300] P-65216      T-46572 I ABL     2: (7129)  Usr 2 set name to edson. 
+[2025/08/10@18:34:39.957-0300] P-65216      T-46572 I ABL     2: (453)   Logout by edson on CON:. 
+[2025/08/10@18:38:16.559-0300] P-1696       T-56644 I ABL     2: (452)   Login by edson on CON:. 
+[2025/08/10@18:38:16.572-0300] P-1696       T-56644 I ABL     2: (7129)  Usr 2 set name to edson. 
+[2025/08/10@18:38:36.887-0300] P-1696       T-56644 I ABL     2: (453)   Logout by edson on CON:. 
+[2025/08/10@18:40:00.262-0300] P-66384      T-63700 I ABL     2: (452)   Login by edson on CON:. 
+[2025/08/10@18:40:00.274-0300] P-66384      T-63700 I ABL     2: (7129)  Usr 2 set name to edson. 
+[2025/08/10@18:40:11.422-0300] P-66384      T-63700 I ABL     2: (453)   Logout by edson on CON:. 
+[2025/08/10@18:42:31.842-0300] P-58476      T-56348 I ABL     2: (452)   Login by edson on CON:. 
+[2025/08/10@18:42:31.853-0300] P-58476      T-56348 I ABL     2: (7129)  Usr 2 set name to edson. 
+[2025/08/10@18:42:36.984-0300] P-58476      T-56348 I ABL     2: (453)   Logout by edson on CON:. 
+[2025/08/10@18:44:14.023-0300] P-53344      T-50280 I ABL     2: (452)   Login by edson on CON:. 
+[2025/08/10@18:44:14.036-0300] P-53344      T-50280 I ABL     2: (7129)  Usr 2 set name to edson. 
+[2025/08/10@18:44:31.302-0300] P-53344      T-50280 I ABL     2: (453)   Logout by edson on CON:. 
+[2025/08/10@18:46:52.305-0300] P-43256      T-65308 I ABL     2: (452)   Login by edson on CON:. 
+[2025/08/10@18:46:52.320-0300] P-43256      T-65308 I ABL     2: (7129)  Usr 2 set name to edson. 
+[2025/08/10@18:48:24.357-0300] P-43256      T-65308 I ABL     2: (453)   Logout by edson on CON:. 
+[2025/08/10@19:02:42.022-0300] P-4136       T-39208 I ABL     2: (452)   Login by edson on CON:. 
+[2025/08/10@19:02:42.041-0300] P-4136       T-39208 I ABL     2: (7129)  Usr 2 set name to edson. 
+[2025/08/10@19:02:45.197-0300] P-4136       T-39208 I ABL     2: (453)   Logout by edson on CON:. 
+[2025/08/10@19:04:48.716-0300] P-65372      T-61776 I ABL     2: (452)   Login by edson on CON:. 
+[2025/08/10@19:04:48.728-0300] P-65372      T-61776 I ABL     2: (7129)  Usr 2 set name to edson. 
+[2025/08/10@19:04:51.899-0300] P-65372      T-61776 I ABL     2: (453)   Logout by edson on CON:. 
+[2025/08/10@19:07:36.890-0300] P-68184      T-40532 I ABL     2: (452)   Login by edson on CON:. 
+[2025/08/10@19:07:36.903-0300] P-68184      T-40532 I ABL     2: (7129)  Usr 2 set name to edson. 
+[2025/08/10@19:07:43.020-0300] P-68184      T-40532 I ABL     2: (453)   Logout by edson on CON:. 
+[2025/08/10@19:07:47.317-0300] P-60140      T-67524 I ABL     2: (452)   Login by edson on CON:. 
+[2025/08/10@19:07:47.326-0300] P-60140      T-67524 I ABL     2: (7129)  Usr 2 set name to edson. 
+[2025/08/10@19:07:52.462-0300] P-60140      T-67524 I ABL     2: (453)   Logout by edson on CON:. 
+[2025/08/10@19:08:19.971-0300] P-67556      T-64712 I ABL     2: (452)   Login by edson on CON:. 
+[2025/08/10@19:08:19.982-0300] P-67556      T-64712 I ABL     2: (7129)  Usr 2 set name to edson. 
+[2025/08/10@19:08:45.301-0300] P-67556      T-64712 I ABL     2: (453)   Logout by edson on CON:. 
+[2025/08/10@19:11:23.092-0300] P-63292      T-63700 I ABL     2: (452)   Login by edson on CON:. 
+[2025/08/10@19:11:23.103-0300] P-63292      T-63700 I ABL     2: (7129)  Usr 2 set name to edson. 
+[2025/08/10@19:11:38.382-0300] P-63292      T-63700 I ABL     2: (453)   Logout by edson on CON:. 
+[2025/08/10@19:14:01.904-0300] P-39000      T-65836 I ABL     2: (452)   Login by edson on CON:. 
+[2025/08/10@19:14:01.914-0300] P-39000      T-65836 I ABL     2: (7129)  Usr 2 set name to edson. 
+[2025/08/10@19:14:21.164-0300] P-39000      T-65836 I ABL     2: (453)   Logout by edson on CON:. 
+[2025/08/10@19:16:06.370-0300] P-60840      T-64124 I ABL     2: (452)   Login by edson on CON:. 
+[2025/08/10@19:16:06.380-0300] P-60840      T-64124 I ABL     2: (7129)  Usr 2 set name to edson. 
+[2025/08/10@19:20:07.697-0300] P-60840      T-64124 I ABL     2: (453)   Logout by edson on CON:. 
+[2025/08/10@19:23:25.357-0300] P-67300      T-56348 I ABL     2: (452)   Login by edson on CON:. 
+[2025/08/10@19:23:25.366-0300] P-67300      T-56348 I ABL     2: (7129)  Usr 2 set name to edson. 
+[2025/08/10@19:23:27.459-0300] P-67300      T-56348 I ABL     2: (453)   Logout by edson on CON:. 
+[2025/08/10@19:24:55.906-0300] P-34436      T-51252 I ABL     2: (452)   Login by edson on CON:. 
+[2025/08/10@19:24:55.917-0300] P-34436      T-51252 I ABL     2: (7129)  Usr 2 set name to edson. 
+[2025/08/10@19:27:01.317-0300] P-34436      T-51252 I ABL     2: (453)   Logout by edson on CON:. 
+[2025/08/10@19:27:02.912-0300] P-59680      T-65260 I ABL     2: (452)   Login by edson on CON:. 
+[2025/08/10@19:27:02.921-0300] P-59680      T-65260 I ABL     2: (7129)  Usr 2 set name to edson. 
+[2025/08/10@19:27:11.117-0300] P-59680      T-65260 I ABL     2: (453)   Logout by edson on CON:. 
+[2025/08/10@19:43:24.284-0300] P-37744      T-65204 I ABL     2: (452)   Login by edson on CON:. 
+[2025/08/10@19:43:24.300-0300] P-37744      T-65204 I ABL     2: (7129)  Usr 2 set name to edson. 
+[2025/08/10@19:44:09.900-0300] P-37744      T-65204 I ABL     2: (453)   Logout by edson on CON:. 
+[2025/08/10@19:44:35.363-0300] P-50768      T-33064 I ABL     2: (452)   Login by edson on CON:. 
+[2025/08/10@19:44:35.383-0300] P-50768      T-33064 I ABL     2: (7129)  Usr 2 set name to edson. 
+[2025/08/10@19:44:43.547-0300] P-50768      T-33064 I ABL     2: (453)   Logout by edson on CON:. 
+[2025/08/10@19:49:54.057-0300] P-61072      T-57724 I ABL     2: (452)   Login by edson on CON:. 
+[2025/08/10@19:49:54.072-0300] P-61072      T-57724 I ABL     2: (7129)  Usr 2 set name to edson. 
+[2025/08/10@19:49:57.169-0300] P-61072      T-57724 I ABL     2: (453)   Logout by edson on CON:. 
+[2025/08/10@19:57:35.897-0300] P-66908      T-63076 I ABL     2: (452)   Login by edson on CON:. 
+[2025/08/10@19:57:35.911-0300] P-66908      T-63076 I ABL     2: (7129)  Usr 2 set name to edson. 
+[2025/08/10@19:57:43.649-0300] P-66908      T-63076 I ABL     2: (453)   Logout by edson on CON:. 
+[2025/08/10@20:04:45.092-0300] P-63908      T-51492 I ABL     2: (452)   Login by edson on CON:. 
+[2025/08/10@20:04:45.106-0300] P-63908      T-51492 I ABL     2: (7129)  Usr 2 set name to edson. 
+[2025/08/10@20:06:16.060-0300] P-63908      T-51492 I ABL     2: (453)   Logout by edson on CON:. 
+[2025/08/10@20:07:22.341-0300] P-51608      T-64748 I ABL     2: (452)   Login by edson on CON:. 
+[2025/08/10@20:07:22.354-0300] P-51608      T-64748 I ABL     2: (7129)  Usr 2 set name to edson. 
+[2025/08/10@20:07:59.763-0300] P-51608      T-64748 I ABL     2: (453)   Logout by edson on CON:. 
+[2025/08/10@20:08:47.270-0300] P-67748      T-65480 I ABL     2: (452)   Login by edson on CON:. 
+[2025/08/10@20:08:47.280-0300] P-67748      T-65480 I ABL     2: (7129)  Usr 2 set name to edson. 
+[2025/08/10@20:11:32.729-0300] P-68192      T-64824 I ABL     3: (452)   Login by edson on CON:. 
+[2025/08/10@20:11:32.742-0300] P-68192      T-64824 I ABL     3: (7129)  Usr 3 set name to edson. 
+[2025/08/10@20:12:13.220-0300] P-68192      T-64824 I ABL     3: (453)   Logout by edson on CON:. 
+[2025/08/10@20:12:17.167-0300] P-67208      T-46008 I ABL     3: (452)   Login by edson on CON:. 
+[2025/08/10@20:12:17.183-0300] P-67208      T-46008 I ABL     3: (7129)  Usr 3 set name to edson. 
+[2025/08/10@20:12:34.429-0300] P-67208      T-46008 I ABL     3: (453)   Logout by edson on CON:. 
+[2025/08/10@20:13:04.046-0300] P-67748      T-65480 I ABL     2: (453)   Logout by edson on CON:. 
+[2025/08/10@20:41:20.910-0300] P-69176      T-68404 I ABL     2: (452)   Login by edson on CON:. 
+[2025/08/10@20:41:20.926-0300] P-69176      T-68404 I ABL     2: (7129)  Usr 2 set name to edson. 
+[2025/08/10@20:41:53.270-0300] P-69176      T-68404 I ABL     2: (453)   Logout by edson on CON:. 
+[2025/08/10@20:44:41.982-0300] P-45460      T-69184 I ABL     2: (452)   Login by edson on CON:. 
+[2025/08/10@20:44:41.998-0300] P-45460      T-69184 I ABL     2: (7129)  Usr 2 set name to edson. 
+[2025/08/10@20:46:38.206-0300] P-45460      T-69184 I ABL     2: (453)   Logout by edson on CON:. 
+[2025/08/10@20:47:08.651-0300] P-66072      T-64516 I ABL     2: (452)   Login by edson on CON:. 
+[2025/08/10@20:47:08.666-0300] P-66072      T-64516 I ABL     2: (7129)  Usr 2 set name to edson. 
+[2025/08/10@20:48:29.661-0300] P-66072      T-64516 I ABL     2: (453)   Logout by edson on CON:. 
+[2025/08/10@20:53:12.421-0300] P-51644      T-53908 I ABL     2: (452)   Login by edson on CON:. 
+[2025/08/10@20:53:12.430-0300] P-51644      T-53908 I ABL     2: (7129)  Usr 2 set name to edson. 
+[2025/08/10@20:53:15.606-0300] P-51644      T-53908 I ABL     2: (453)   Logout by edson on CON:. 
+[2025/08/10@20:54:19.833-0300] P-63052      T-40740 I ABL     2: (452)   Login by edson on CON:. 
+[2025/08/10@20:54:19.849-0300] P-63052      T-40740 I ABL     2: (7129)  Usr 2 set name to edson. 
+[2025/08/10@20:54:50.160-0300] P-63052      T-40740 I ABL     2: (453)   Logout by edson on CON:. 
+[2025/08/10@20:55:56.283-0300] P-41492      T-21016 I ABL     2: (452)   Login by edson on CON:. 
+[2025/08/10@20:55:56.291-0300] P-41492      T-21016 I ABL     2: (7129)  Usr 2 set name to edson. 
+[2025/08/10@20:55:58.365-0300] P-41492      T-21016 I ABL     2: (453)   Logout by edson on CON:. 
+[2025/08/10@20:56:11.177-0300] P-52580      T-34896 I ABL     2: (452)   Login by edson on CON:. 
+[2025/08/10@20:56:11.190-0300] P-52580      T-34896 I ABL     2: (7129)  Usr 2 set name to edson. 
+[2025/08/10@20:58:02.250-0300] P-52580      T-34896 I ABL     2: (453)   Logout by edson on CON:. 
+[2025/08/10@21:00:00.639-0300] P-40792      T-66716 I ABL     2: (452)   Login by edson on CON:. 
+[2025/08/10@21:00:00.648-0300] P-40792      T-66716 I ABL     2: (7129)  Usr 2 set name to edson. 
+[2025/08/10@21:00:33.096-0300] P-40792      T-66716 I ABL     2: (453)   Logout by edson on CON:. 
+[2025/08/10@21:00:43.173-0300] P-50632      T-69060 I ABL     2: (452)   Login by edson on CON:. 
+[2025/08/10@21:00:43.188-0300] P-50632      T-69060 I ABL     2: (7129)  Usr 2 set name to edson. 
+[2025/08/10@21:14:07.159-0300] P-50632      T-69060 I ABL     2: (453)   Logout by edson on CON:. 
+[2025/08/10@21:41:58.187-0300] P-36872      T-30788 I ABL     2: (452)   Login by edson on CON:. 
+[2025/08/10@21:41:58.225-0300] P-36872      T-30788 I ABL     2: (7129)  Usr 2 set name to edson. 
+[2025/08/10@21:56:44.976-0300] P-36872      T-30788 I ABL     2: (453)   Logout by edson on CON:. 
+[2025/08/10@21:56:57.735-0300] P-71824      T-72500 I ABL     2: (452)   Login by edson on CON:. 
+[2025/08/10@21:56:57.754-0300] P-71824      T-72500 I ABL     2: (7129)  Usr 2 set name to edson. 
+[2025/08/10@22:03:56.885-0300] P-71824      T-72500 I ABL     2: (453)   Logout by edson on CON:. 
+[2025/08/10@22:03:58.201-0300] P-70632      T-30224 I ABL     2: (452)   Login by edson on CON:. 
+[2025/08/10@22:03:58.210-0300] P-70632      T-30224 I ABL     2: (7129)  Usr 2 set name to edson. 
+[2025/08/10@22:13:56.677-0300] P-70632      T-30224 I ABL     2: (453)   Logout by edson on CON:. 
